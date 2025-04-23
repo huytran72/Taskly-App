@@ -10,7 +10,7 @@ function App() {
       <Button variant="contained">Contained</Button>
       <Button variant="outlined">Outlined</Button>
 
-      <br></br>
+      <br />
       <AccessAlarmIcon />
       <ThreeDRotation />
     </>
