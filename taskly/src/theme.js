@@ -11,14 +11,14 @@ const theme = extendTheme({
     light: {
       palette: {
         primary: {
-          main: pink[600],
+          main: "#ff5252",
         },
       },
     },
     dark: {
       palette: {
         primary: {
-          main: pink[400],
+          main: "#000",
         },
       },
     },
