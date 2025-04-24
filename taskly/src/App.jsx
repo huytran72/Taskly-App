@@ -4,6 +4,7 @@ import ThreeDRotation from "@mui/icons-material/ThreeDRotation";
 import HomeIcon from "@mui/icons-material/Home";
 import { pink } from "@mui/material/colors";
 import Typography from "@mui/material/Typography";
+import theme from "./theme";
 
 function App() {
   return (
