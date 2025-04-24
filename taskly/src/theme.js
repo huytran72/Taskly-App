@@ -4,7 +4,6 @@ import {
   Experimental_CssVarsProvider as CssVarsProvider,
   experimental_extendTheme as extendTheme,
 } from "@mui/material/styles";
-import { pink } from "@mui/material/colors";
 
 const theme = extendTheme({
   colorSchemes: {
