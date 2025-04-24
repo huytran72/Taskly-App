@@ -7,8 +7,8 @@ import Typography from "@mui/material/Typography";
 import theme from "./theme";
 import { useColorScheme } from "@mui/material/styles";
 
-export default function BasicSelect() {
-  const [age, setAge] = React.useState('');
+function ModeSelect() {
+  const [age, setAge] = React.useState("");
 
   const handleChange = (event) => {
     setAge(event.target.value);
