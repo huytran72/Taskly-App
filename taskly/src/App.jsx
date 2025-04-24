@@ -5,10 +5,7 @@ import HomeIcon from "@mui/icons-material/Home";
 import { pink } from "@mui/material/colors";
 import Typography from "@mui/material/Typography";
 import theme from "./theme";
-import {
-  Experimental_CssVarsProvider as CssVarsProvider,
-  experimental_extendTheme as extendTheme,
-} from "@mui/material/styles";
+import { useColorScheme } from "@mui/material/styles";
 
 function ModeToggle() {
   const { mode, setMode } = useColorScheme();
