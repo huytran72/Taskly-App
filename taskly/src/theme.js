@@ -1,5 +1,9 @@
 import { createTheme } from "@mui/material/styles";
 import { red } from "@mui/material/colors";
+import {
+  Experimental_CssVarsProvider as CssVarsProvider,
+  experimental_extendTheme as extendTheme,
+} from "@mui/material/styles";
 
 const theme = createTheme({
   cssVariables: true,
