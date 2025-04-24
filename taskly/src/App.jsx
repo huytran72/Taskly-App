@@ -25,7 +25,7 @@ function ModeSelect() {
         <InputLabel id="label-select-dark-light-mode">Age</InputLabel>
         <Select
           labelId="label-select-dark-light-mode"
-          id="demo-simple-select"
+          id="select-dark-light-mode"
           value={age}
           label="Age"
           onChange={handleChange}
