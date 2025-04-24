@@ -26,6 +26,7 @@ function ModeToggle() {
 function App() {
   return (
     <>
+      <hr />
       <div>taskly</div>
 
       <Typography variant="h2" color="text.secondary">
