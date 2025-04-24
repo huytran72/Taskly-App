@@ -30,9 +30,9 @@ function ModeSelect() {
           label="Mode"
           onChange={handleChange}
         >
-          <MenuItem value={10}>Ten</MenuItem>
-          <MenuItem value={20}>Twenty</MenuItem>
-          <MenuItem value={30}>Thirty</MenuItem>
+          <MenuItem value="light">Light</MenuItem>
+          <MenuItem value="dark">Dark</MenuItem>
+          <MenuItem value="system">System</MenuItem>
         </Select>
       </FormControl>
     </Box>
@@ -63,6 +63,8 @@ function ModeToggle() {
 function App() {
   return (
     <>
+      <ModeSelect />
+      <hr />
       <ModeToggle />
       <hr />
       <div>taskly</div>
