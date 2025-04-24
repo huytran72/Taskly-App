@@ -12,8 +12,8 @@ function App() {
     <>
       <div>taskly</div>
 
-      <Typography variant="h1" color="text.secondary">
-        h1. Heading
+      <Typography variant="h2" color="text.secondary">
+        h2. Heading
       </Typography>
 
       <Button variant="text">Text</Button>
