@@ -26,6 +26,7 @@ function ModeToggle() {
 function App() {
   return (
     <>
+      <ModeToggle />
       <hr />
       <div>taskly</div>
 
