@@ -6,6 +6,11 @@ import { pink } from "@mui/material/colors";
 import Typography from "@mui/material/Typography";
 import theme from "./theme";
 import { useColorScheme } from "@mui/material/styles";
+import Box from "@mui/material/Box";
+import InputLabel from "@mui/material/InputLabel";
+import MenuItem from "@mui/material/MenuItem";
+import FormControl from "@mui/material/FormControl";
+import Select from "@mui/material/Select";
 
 function ModeSelect() {
   const [age, setAge] = React.useState("");
