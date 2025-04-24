@@ -22,12 +22,12 @@ function ModeSelect() {
   return (
     <Box sx={{ minWidth: 120 }}>
       <FormControl fullWidth>
-        <InputLabel id="label-select-dark-light-mode">Age</InputLabel>
+        <InputLabel id="label-select-dark-light-mode">Mode</InputLabel>
         <Select
           labelId="label-select-dark-light-mode"
           id="select-dark-light-mode"
-          value={age}
-          label="Age"
+          value={mode}
+          label="Mode"
           onChange={handleChange}
         >
           <MenuItem value={10}>Ten</MenuItem>
