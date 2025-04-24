@@ -9,14 +9,22 @@ import { useColorScheme } from "@mui/material/styles";
 
 function ModeToggle() {
   const { mode, setMode } = useColorScheme();
+  if (!mode) {
+    return null;
+  }
+
   return (
-    <Button
-      onClick={() => {
-        setMode(mode === "light" ? "dark" : "light");
+    <select
+      value={mode}
+      onChange={(event) => {
+        setMode(event.target.value);
+        // For TypeScript, cast `event.target.value as 'light' | 'dark' | 'system'`:
       }}
     >
-      {mode === "light" ? "Turn dark" : "Turn light"}
-    </Button>
+      <option value="system">System</option>
+      <option value="light">Light</option>
+      <option value="dark">Dark</option>
+    </select>
   );
 }
 
