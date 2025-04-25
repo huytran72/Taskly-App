@@ -4,19 +4,13 @@ import App from "./App.jsx";
 import { CssBaseline } from "@mui/material";
 import theme from "./theme";
 import { ThemeProvider } from "@mui/material/styles";
+import { Experimental_CssVarsProvider as CssVarsProvider } from "@mui/material/styles";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <ThemeProvider
-      theme={theme}
-      colorSchemeSelector="body"
-      defaultColorScheme={{
-        light: "light",
-        dark: "dark",
-      }}
-    >
+    <CssVarsProvider theme={theme}>
       <CssBaseline />
       <App />
-    </ThemeProvider>
+    </CssVarsProvider>
   </StrictMode>
 );
