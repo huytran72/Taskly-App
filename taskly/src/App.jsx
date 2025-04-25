@@ -13,7 +13,7 @@ import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import LightModeIcon from "@mui/icons-material/LightMode";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
-import SettingBrightnessIcon from "@mui/icons-material/SettingsBrightness";
+import SettingsBrightnessIcon from "@mui/icons-material/SettingsBrightness";
 
 function ModeSelect() {
   const { mode, setMode } = useColorScheme();
@@ -42,7 +42,7 @@ function ModeSelect() {
           Dark
         </MenuItem>
         <MenuItem value="system">
-          <SettingBrightnessIcon />
+          <SettingsBrightnessIcon />
           System
         </MenuItem>
       </Select>
@@ -50,35 +50,35 @@ function ModeSelect() {
   );
 }
 
-function ModeSwitcher() {
-  const { mode, setMode } = useColorScheme();
+// function ModeSwitcher() {
+//   const { mode, setMode } = useColorScheme();
 
-  if (!mode) {
-    return null;
-  }
+//   if (!mode) {
+//     return null;
+//   }
 
-  return (
-    <select
-      value={mode}
-      onChange={(event) => {
-        setMode(event.target.value);
-        // For TypeScript, cast `event.target.value as 'light' | 'dark' | 'system'`:
-      }}
-    >
-      <option value="system">System</option>
-      <option value="light">Light</option>
-      <option value="dark">Dark</option>
-    </select>
-  );
-}
+//   return (
+//     <select
+//       value={mode}
+//       onChange={(event) => {
+//         setMode(event.target.value);
+//         // For TypeScript, cast `event.target.value as 'light' | 'dark' | 'system'`:
+//       }}
+//     >
+//       <option value="system">System</option>
+//       <option value="light">Light</option>
+//       <option value="dark">Dark</option>
+//     </select>
+//   );
+// }
 
 function App() {
   return (
     <>
       <ModeSelect />
       <hr />
-      <ModeSwitcher />
-      <hr />
+      {/* <ModeSwitcher /> */}
+      {/* <hr /> */}
       <div>taskly</div>
 
       <Typography variant="h2" color="text.secondary">
