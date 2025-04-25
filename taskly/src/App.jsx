@@ -13,6 +13,7 @@ import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import LightModeIcon from "@mui/icons-material/LightMode";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
+import SettingBrightnessIcon from "@mui/icons-material/SettingsBrightness";
 
 function ModeSelect() {
   const { mode, setMode } = useColorScheme();
