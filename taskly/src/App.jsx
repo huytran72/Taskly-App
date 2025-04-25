@@ -51,35 +51,31 @@ import SettingsBrightnessIcon from "@mui/icons-material/SettingsBrightness";
 //   );
 // }
 
-// function ModeSwitcher() {
-//   const { mode, setMode } = useColorScheme();
+function ModeToggle() {
+  const { mode, setMode } = useColorScheme();
 
-//   if (!mode) {
-//     return null;
-//   }
+  if (!mode) {
+    return null;
+  }
 
-//   return (
-//     <select
-//       value={mode}
-//       onChange={(event) => {
-//         setMode(event.target.value);
-//         // For TypeScript, cast `event.target.value as 'light' | 'dark' | 'system'`:
-//       }}
-//     >
-//       <option value="system">System</option>
-//       <option value="light">Light</option>
-//       <option value="dark">Dark</option>
-//     </select>
-//   );
-// }
+  return (
+    <Button
+      onClick={() => {
+        setMode(mode === "light" ? "dark" : "light");
+      }}
+    >
+      {mode === "light" ? "Turn dark" : "Turn light"}
+    </Button>
+  );
+}
 
 function App() {
   return (
     <>
-      <ModeSelect />
+      {/* <ModeSelect />
+      <hr /> */}
+      <ModeSwitcher />
       <hr />
-      {/* <ModeSwitcher /> */}
-      {/* <hr /> */}
       <div>taskly</div>
 
       <Typography variant="h2" color="text.secondary">
