@@ -70,7 +70,7 @@ function App() {
     <>
       {/* <ModeSelect />
       <hr /> */}
-      <ModeSwitcher />
+      <ModeToggle />
       <hr />
       <div>taskly</div>
 
