@@ -33,7 +33,10 @@ function ModeSelect() {
         label="Mode"
         onChange={handleChange}
       >
-        <MenuItem value="light">Light</MenuItem>
+        <MenuItem value="light">
+          <LightModeIcon />
+          Light
+        </MenuItem>
         <MenuItem value="dark">Dark</MenuItem>
         <MenuItem value="system">System</MenuItem>
       </Select>
