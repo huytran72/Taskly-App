@@ -17,6 +17,7 @@ function ModeSelect() {
 
   const handleChange = (event) => {
     const selectedMode = event.target.value;
+    console.log(selectedMode);
     // setAge(event.target.value);
   };
 
