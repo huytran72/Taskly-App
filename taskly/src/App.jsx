@@ -11,6 +11,8 @@ import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
+import LightModeIcon from "@mui/icons-material/LightMode";
+import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 
 function ModeSelect() {
   const { mode, setMode } = useColorScheme();
@@ -38,8 +40,9 @@ function ModeSelect() {
   );
 }
 
-function ModeToggle() {
+function ModeSwitcher() {
   const { mode, setMode } = useColorScheme();
+
   if (!mode) {
     return null;
   }
@@ -64,7 +67,7 @@ function App() {
     <>
       <ModeSelect />
       <hr />
-      <ModeToggle />
+      <ModeSwitcher />
       <hr />
       <div>taskly</div>
 
