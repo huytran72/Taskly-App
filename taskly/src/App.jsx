@@ -58,7 +58,6 @@ import SettingsBrightnessIcon from "@mui/icons-material/SettingsBrightness";
 
 function ModeToggle() {
   const { mode, setMode } = useColorScheme();
-
   return (
     <Button
       onClick={() => {
