@@ -15,40 +15,41 @@ import LightModeIcon from "@mui/icons-material/LightMode";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 import SettingsBrightnessIcon from "@mui/icons-material/SettingsBrightness";
 
-function ModeSelect() {
-  const { mode, setMode } = useColorScheme();
+// function ModeSelect() {
+//   const { mode, setMode } = useColorScheme();
 
-  const handleChange = (event) => {
-    const selectedMode = event.target.value;
-    setMode(selectedMode);
-  };
+//   const handleChange = (event) => {
+//     const selectedMode = event.target.value;
+//     document.body.classList.remove("mui-light", "mui-dark");
+//     document.body.classList.add(`mui-${selectedMode}`);
+//   };
 
-  return (
-    <FormControl sx={{ m: 1, minWidth: 120 }} size="small">
-      <InputLabel id="label-select-dark-light-mode">Mode</InputLabel>
-      <Select
-        labelId="label-select-dark-light-mode"
-        id="select-dark-light-mode"
-        value={mode}
-        label="Mode"
-        onChange={handleChange}
-      >
-        <MenuItem value="light">
-          <LightModeIcon />
-          Light
-        </MenuItem>
-        <MenuItem value="dark">
-          <DarkModeOutlinedIcon />
-          Dark
-        </MenuItem>
-        <MenuItem value="system">
-          <SettingsBrightnessIcon />
-          System
-        </MenuItem>
-      </Select>
-    </FormControl>
-  );
-}
+//   return (
+//     <FormControl sx={{ m: 1, minWidth: 120 }} size="small">
+//       <InputLabel id="label-select-dark-light-mode">Mode</InputLabel>
+//       <Select
+//         labelId="label-select-dark-light-mode"
+//         id="select-dark-light-mode"
+//         value={mode}
+//         label="Mode"
+//         onChange={handleChange}
+//       >
+//         <MenuItem value="light">
+//           <LightModeIcon />
+//           Light
+//         </MenuItem>
+//         <MenuItem value="dark">
+//           <DarkModeOutlinedIcon />
+//           Dark
+//         </MenuItem>
+//         <MenuItem value="system">
+//           <SettingsBrightnessIcon />
+//           System
+//         </MenuItem>
+//       </Select>
+//     </FormControl>
+//   );
+// }
 
 // function ModeSwitcher() {
 //   const { mode, setMode } = useColorScheme();
