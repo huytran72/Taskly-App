@@ -9,6 +9,10 @@ function App() {
       <Button variant="text">Text</Button>
       <Button variant="contained">Contained</Button>
       <Button variant="outlined">Outlined</Button>
+
+      <br />
+      <AccessAlarmIcon />
+      <ThreeDRotation />
     </>
   )
 }
