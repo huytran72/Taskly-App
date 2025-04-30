@@ -13,6 +13,13 @@ function App() {
       <br />
       <AccessAlarmIcon />
       <ThreeDRotation />
+
+      <HomeIcon color="primary" />
+      <HomeIcon color="secondary" />
+      <HomeIcon color="success" />
+      <HomeIcon color="action" />
+      <HomeIcon color="disabled" />
+      <HomeIcon sx={{ color: pink[500] }} />
     </>
   )
 }
