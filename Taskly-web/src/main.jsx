@@ -6,6 +6,7 @@ import CssBaseline from "@mui/material/CssBaseline"
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
+    <CssBaseline />
     <App />
   </StrictMode>
 )
