@@ -7,7 +7,10 @@ import theme from "./theme.js"
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <CssBaseline />
-    <App />
+    <ThemeProvider theme={theme}>
+      <App />
+      <CssBaseline />
+      <App />
+    </ThemeProvider>
   </StrictMode>
 )
