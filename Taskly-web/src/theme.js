@@ -15,7 +15,7 @@ const theme = createTheme({
       main: red.A400,
     },
     text: {
-      secondary: "#ffffff",
+      secondary: red[500],
     },
   },
 })
