@@ -9,6 +9,9 @@ function App() {
   return (
     <>
       <div>kennytran</div>
+
+      <Typography variant="h1">h1 Heading</Typography>
+
       <Button variant="text">Text</Button>
       <Button variant="contained">Contained</Button>
       <Button variant="outlined">Outlined</Button>
