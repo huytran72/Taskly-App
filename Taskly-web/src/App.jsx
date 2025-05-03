@@ -11,7 +11,7 @@ function App() {
       <div>kennytran</div>
 
       <Typography variant="body2" color="text.secondary">
-        h1 Heading
+        Test Typography
       </Typography>
 
       <Button variant="text">Text</Button>
