@@ -8,20 +8,19 @@ const theme = extendTheme({
     light: {
       palette: {
         primary: {
-          main: '#ff5252',
+          main: "#ff5252",
         },
       },
     },
     dark: {
       palette: {
         primary: {
-          main: '#000',
+          main: "#000",
         },
-        ...
       },
     },
   },
   // ...other properties
-});
+})
 
 export default theme
