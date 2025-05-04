@@ -26,6 +26,8 @@ function ModeToggle() {
 function App() {
   return (
     <>
+      <ModeToggle />
+      <hr />
       <div>kennytran</div>
 
       <Typography variant="body2" color="text.secondary">
