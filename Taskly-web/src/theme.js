@@ -7,9 +7,9 @@ const theme = extendTheme({
   colorSchemes: {
     light: {
       palette: {
-        // primary: {
-        //   main: "#ff5252",
-        // },
+        primary: {
+          main: "#ff5252",
+        },
       },
     },
     dark: {
