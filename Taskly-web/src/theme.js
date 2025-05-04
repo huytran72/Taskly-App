@@ -10,7 +10,6 @@ const theme = extendTheme({
         primary: {
           main: '#ff5252',
         },
-        ...
       },
     },
     dark: {
