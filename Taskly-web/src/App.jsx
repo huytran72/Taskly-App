@@ -6,13 +6,12 @@ import { pink } from "@mui/material/colors"
 import Typography from "@mui/material/Typography"
 import { useColorScheme } from "@mui/material/styles"
 
-
-export default function BasicSelect() {
-  const [age, setAge] = React.useState('');
+function ModeSelect() {
+  const [age, setAge] = React.useState("")
 
   const handleChange = (event) => {
-    setAge(event.target.value);
-  };
+    setAge(event.target.value)
+  }
 
   return (
     <Box sx={{ minWidth: 120 }}>
@@ -31,9 +30,8 @@ export default function BasicSelect() {
         </Select>
       </FormControl>
     </Box>
-  );
+  )
 }
-
 
 function ModeToggle() {
   const { mode, setMode } = useColorScheme()
