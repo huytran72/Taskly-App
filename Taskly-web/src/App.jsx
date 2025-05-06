@@ -12,8 +12,6 @@ import FormControl from "@mui/material/FormControl"
 import Select from "@mui/material/Select"
 
 function ModeSelect() {
-  const [age, setAge] = React.useState("")
-
   const handleChange = (event) => {
     setAge(event.target.value)
   }
