@@ -28,8 +28,8 @@ function ModeSelect() {
         label="Mode"
         onChange={handleChange}
       >
-        <MenuItem value="light">Ten</MenuItem>
-        <MenuItem value={20}>Twenty</MenuItem>
+        <MenuItem value="light">Light</MenuItem>
+        <MenuItem value="dark">Dark</MenuItem>
         <MenuItem value={30}>Thirty</MenuItem>
       </Select>
     </FormControl>
