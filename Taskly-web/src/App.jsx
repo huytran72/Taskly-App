@@ -19,22 +19,20 @@ function ModeSelect() {
   }
 
   return (
-    <Box sx={{ m: 1, minWidth: 120 }} size="small">
-      <FormControl fullWidth>
-        <InputLabel id="label-select-dark-light-mode">Mode</InputLabel>
-        <Select
-          labelId="label-select-dark-light-mode"
-          id="select-dark-light-mode"
-          value={mode}
-          label="Mode"
-          onChange={handleChange}
-        >
-          <MenuItem value={10}>Ten</MenuItem>
-          <MenuItem value={20}>Twenty</MenuItem>
-          <MenuItem value={30}>Thirty</MenuItem>
-        </Select>
-      </FormControl>
-    </Box>
+    <FormControl sx={{ m: 1, minWidth: 120 }} size="small">
+      <InputLabel id="label-select-dark-light-mode">Mode</InputLabel>
+      <Select
+        labelId="label-select-dark-light-mode"
+        id="select-dark-light-mode"
+        value={mode}
+        label="Mode"
+        onChange={handleChange}
+      >
+        <MenuItem value={10}>Ten</MenuItem>
+        <MenuItem value={20}>Twenty</MenuItem>
+        <MenuItem value={30}>Thirty</MenuItem>
+      </Select>
+    </FormControl>
   )
 }
 
