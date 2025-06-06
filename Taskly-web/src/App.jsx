@@ -23,7 +23,7 @@ function ModeSelect() {
       <FormControl fullWidth>
         <InputLabel id="label-select-dark-light-mode">Age</InputLabel>
         <Select
-          labelId="demo-simple-select-label"
+          labelId="label-select-dark-light-mode"
           id="demo-simple-select"
           value={age}
           label="Age"
