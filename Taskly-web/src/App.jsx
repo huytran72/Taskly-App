@@ -30,7 +30,7 @@ function ModeSelect() {
       >
         <MenuItem value="light">Light</MenuItem>
         <MenuItem value="dark">Dark</MenuItem>
-        <MenuItem value={30}>Thirty</MenuItem>
+        <MenuItem value="system">System</MenuItem>
       </Select>
     </FormControl>
   )
