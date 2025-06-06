@@ -21,7 +21,7 @@ function ModeSelect() {
   return (
     <Box sx={{ m: 1, minWidth: 120 }} size="small">
       <FormControl fullWidth>
-        <InputLabel id="demo-simple-select-label">Age</InputLabel>
+        <InputLabel id="label-select-dark-light-mode">Age</InputLabel>
         <Select
           labelId="demo-simple-select-label"
           id="demo-simple-select"
