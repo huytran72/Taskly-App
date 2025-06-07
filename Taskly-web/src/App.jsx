@@ -52,6 +52,7 @@ function ModeToggle() {
 function App() {
   return (
     <>
+      <ModeSelect />
       <hr />
       <ModeToggle />
       <hr />
