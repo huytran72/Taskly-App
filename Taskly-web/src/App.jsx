@@ -15,6 +15,7 @@ function ModeSelect() {
   const { mode, setMode } = useColorScheme()
 
   const handleChange = (event) => {
+    const selectedMode = event.target.value
     // setAge(event.target.value)
   }
 
