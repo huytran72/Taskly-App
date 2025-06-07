@@ -52,6 +52,7 @@ function ModeToggle() {
 function App() {
   return (
     <>
+      <hr />
       <ModeToggle />
       <hr />
       <div>kennytran</div>
