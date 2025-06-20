@@ -37,7 +37,10 @@ function ModeSelect() {
           <LightModeIcon />
           Light
         </MenuItem>
-        <MenuItem value="dark">Dark</MenuItem>
+        <MenuItem value="dark">
+          <DarkModeOutlinedIcon />
+          Dark
+        </MenuItem>
         <MenuItem value="system">System</MenuItem>
       </Select>
     </FormControl>
