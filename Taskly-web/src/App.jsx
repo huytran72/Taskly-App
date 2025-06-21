@@ -34,8 +34,7 @@ function ModeSelect() {
         onChange={handleChange}
       >
         <MenuItem value="light">
-          <LightModeIcon />
-          Light
+          <LightModeIcon /> Light
         </MenuItem>
         <MenuItem value="dark">
           <DarkModeOutlinedIcon />
