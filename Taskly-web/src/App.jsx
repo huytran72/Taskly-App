@@ -39,7 +39,7 @@ function ModeSelect() {
           </div>
         </MenuItem>
         <MenuItem value="dark">
-          <DarkModeOutlinedIcon /> Dark
+          <DarkModeOutlinedIcon fontSize="small" /> Dark
         </MenuItem>
         <MenuItem value="system">
           <SettingsBrightnessIcon /> System
