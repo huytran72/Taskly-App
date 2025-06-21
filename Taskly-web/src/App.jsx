@@ -42,7 +42,7 @@ function ModeSelect() {
           <DarkModeOutlinedIcon fontSize="small" /> Dark
         </MenuItem>
         <MenuItem value="system">
-          <SettingsBrightnessIcon /> System
+          <SettingsBrightnessIcon fontSize="small" /> System
         </MenuItem>
       </Select>
     </FormControl>
