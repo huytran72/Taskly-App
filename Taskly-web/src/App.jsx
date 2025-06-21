@@ -34,7 +34,7 @@ function ModeSelect() {
         onChange={handleChange}
       >
         <MenuItem value="light">
-          <div style={{ display: "flex", alignItems: "center" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
             <LightModeIcon fontSize="small" /> Light
           </div>
         </MenuItem>
