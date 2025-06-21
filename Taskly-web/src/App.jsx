@@ -37,8 +37,7 @@ function ModeSelect() {
           <LightModeIcon /> Light
         </MenuItem>
         <MenuItem value="dark">
-          <DarkModeOutlinedIcon />
-          Dark
+          <DarkModeOutlinedIcon /> Dark
         </MenuItem>
         <MenuItem value="system">
           <SettingsBrightnessIcon />
