@@ -9,14 +9,14 @@ const theme = extendTheme({
         primary: teal,
         main: deepOrange,
       },
-      spacing: (factor) => `${0.25 * factor}rem`, // 0.25rem = 4px
+      // spacing: (factor) => `${0.25 * factor}rem`, // 0.25rem = 4px
     },
     dark: {
       palette: {
         primary: cyan,
         main: orange,
       },
-      spacing: (factor) => `${0.25 * factor}rem`, // 0.25rem = 4px
+      // spacing: (factor) => `${0.25 * factor}rem`,
     },
   },
   // ...other properties
