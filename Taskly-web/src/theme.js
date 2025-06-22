@@ -9,6 +9,7 @@ const theme = extendTheme({
         primary: teal,
         main: deepOrange,
       },
+      spacing: (factor) => `${0.25 * factor}rem`, // 0.25rem = 4px
     },
     dark: {
       palette: {
