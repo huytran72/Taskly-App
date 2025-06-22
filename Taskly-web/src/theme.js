@@ -16,6 +16,7 @@ const theme = extendTheme({
         primary: cyan,
         main: orange,
       },
+      spacing: (factor) => `${0.25 * factor}rem`, // 0.25rem = 4px
     },
   },
   // ...other properties
