@@ -56,7 +56,11 @@ function ModeSelect() {
 
 function App() {
   return (
-    <Container sx={{ height: "100vh", backgroundColor: "primary.main" }}>
+    <Container
+      disableGutters
+      maxWidth={false}
+      sx={{ height: "100vh", backgroundColor: "primary.main" }}
+    >
       <ModeSelect />
     </Container>
   )
