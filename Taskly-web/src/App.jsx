@@ -56,7 +56,7 @@ function ModeSelect() {
 
 function App() {
   return (
-    <Container>
+    <Container sx={{ height: "100vh', backgroundColor: "primary.main" }}>
       <ModeSelect />
     </Container>
   )
