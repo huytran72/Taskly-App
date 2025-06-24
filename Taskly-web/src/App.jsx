@@ -13,7 +13,7 @@ import Box from "@mui/material/Box"
 import LightModeIcon from "@mui/icons-material/LightMode"
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined"
 import SettingsBrightnessIcon from "@mui/icons-material/SettingsBrightness"
-import { Container } from "@mui/material"
+import Container from "@mui/material/Container"
 
 function ModeSelect() {
   const { mode, setMode } = useColorScheme()
