@@ -64,6 +64,7 @@ function App() {
       <ModeSelect />
       <Box></Box>
       <Box></Box>
+      <Box></Box>
     </Container>
   )
 }
