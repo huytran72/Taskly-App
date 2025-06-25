@@ -61,7 +61,7 @@ function App() {
       maxWidth={false}
       sx={{ height: "100vh", backgroundColor: "primary.main" }}
     >
-      <Box sx={{ backgroundColor: "primary.light" }}>
+      <Box sx={{ backgroundColor: "primary.light", width: "100%" }}>
         <ModeSelect />
       </Box>
       <Box></Box>
