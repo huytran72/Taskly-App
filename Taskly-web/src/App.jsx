@@ -62,6 +62,7 @@ function App() {
       sx={{ height: "100vh", backgroundColor: "primary.main" }}
     >
       <ModeSelect />
+      <Box></Box>
     </Container>
   )
 }
