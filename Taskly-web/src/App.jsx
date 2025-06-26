@@ -68,7 +68,6 @@ function App() {
           height: "48px",
           display: "flex",
           alignItems: "center",
-          padding: "0 16px",
         }}
       >
         <ModeSelect />
