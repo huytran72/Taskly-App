@@ -74,9 +74,9 @@ function App() {
       </Box>
       <Box
         sx={{
-          backgroundColor: "primary.light",
+          backgroundColor: "primary.dark",
           width: "100%",
-          height: "48px",
+          height: "58px",
           display: "flex",
           alignItems: "center",
         }}
