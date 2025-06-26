@@ -83,7 +83,7 @@ function App() {
       >
         Board Bar
       </Box>
-      <Box>Board Content</Box>
+      <Box sx={{ backgroundColor: "primary.main" }}>Board Content</Box>
     </Container>
   )
 }
