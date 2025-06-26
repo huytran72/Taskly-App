@@ -62,7 +62,14 @@ function App() {
       sx={{ height: "100vh", backgroundColor: "primary.main" }}
     >
       <Box
-        sx={{ backgroundColor: "primary.light", width: "100%", height: "48px" }}
+        sx={{
+          backgroundColor: "primary.light",
+          width: "100%",
+          height: "48px",
+          display: "flex",
+          alignItems: "center",
+          padding: "0 16px",
+        }}
       >
         <ModeSelect />
       </Box>
