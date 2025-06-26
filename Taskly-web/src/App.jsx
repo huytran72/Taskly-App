@@ -83,7 +83,7 @@ function App() {
       >
         Board Bar
       </Box>
-      <Box></Box>
+      <Box>Board Content</Box>
     </Container>
   )
 }
