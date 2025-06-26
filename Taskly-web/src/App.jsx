@@ -80,7 +80,9 @@ function App() {
           display: "flex",
           alignItems: "center",
         }}
-      ></Box>
+      >
+        Board Bar
+      </Box>
       <Box></Box>
     </Container>
   )
