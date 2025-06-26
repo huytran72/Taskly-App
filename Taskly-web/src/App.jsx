@@ -72,7 +72,15 @@ function App() {
       >
         <ModeSelect />
       </Box>
-      <Box></Box>
+      <Box
+        sx={{
+          backgroundColor: "primary.light",
+          width: "100%",
+          height: "48px",
+          display: "flex",
+          alignItems: "center",
+        }}
+      ></Box>
       <Box></Box>
     </Container>
   )
