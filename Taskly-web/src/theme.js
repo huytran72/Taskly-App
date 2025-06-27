@@ -3,6 +3,7 @@ import { cyan, deepOrange, orange, teal } from "@mui/material/colors"
 
 // Create a theme instance.
 const theme = extendTheme({
+  appTaskly: {},
   colorSchemes: {
     light: {
       palette: {
