@@ -87,6 +87,7 @@ function App() {
         sx={{
           backgroundColor: "primary.main",
           width: "100%",
+          height: "calc(100vh - 106px)",
           display: "flex",
           alignItems: "center",
         }}
