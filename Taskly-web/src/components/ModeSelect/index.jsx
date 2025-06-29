@@ -39,4 +39,4 @@ function ModeSelect() {
   )
 }
 
-export default index
+export default ModeSelect
