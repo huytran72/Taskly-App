@@ -14,6 +14,8 @@ function Board() {
     >
       <AppBar />
 
+      <BoardBar />
+
       <Box
         sx={{
           backgroundColor: "primary.main",
