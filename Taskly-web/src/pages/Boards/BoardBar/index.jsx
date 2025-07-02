@@ -1,7 +1,7 @@
 import React from "react"
 
-function index() {
-  return <div>index</div>
+function BoardBar() {
+  return <div>BoardBar() </div>
 }
 
-export default index
+export default BoardBar
