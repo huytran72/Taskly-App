@@ -12,17 +12,7 @@ function Board() {
       sx={{ height: "100vh", backgroundColor: "primary.main" }}
     >
       <AppBar />
-      <Box
-        sx={{
-          backgroundColor: "primary.dark",
-          width: "100%",
-          height: "58px",
-          display: "flex",
-          alignItems: "center",
-        }}
-      >
-        Board Bar
-      </Box>
+
       <Box
         sx={{
           backgroundColor: "primary.main",
