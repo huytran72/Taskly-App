@@ -13,17 +13,6 @@ function Board() {
     >
       <Box
         sx={{
-          backgroundColor: "primary.light",
-          width: "100%",
-          height: "48px",
-          display: "flex",
-          alignItems: "center",
-        }}
-      >
-        <ModeSelect />
-      </Box>
-      <Box
-        sx={{
           backgroundColor: "primary.dark",
           width: "100%",
           height: "58px",
