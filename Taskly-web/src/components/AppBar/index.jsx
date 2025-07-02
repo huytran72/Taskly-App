@@ -1,6 +1,6 @@
 import React from "react"
 
-function index() {
+function AppBar() {
   return <div>index</div>
 }
 
