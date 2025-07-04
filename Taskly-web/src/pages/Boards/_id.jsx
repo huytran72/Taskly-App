@@ -14,8 +14,8 @@ function Board() {
       sx={{ height: "100vh", backgroundColor: "primary.main" }}
     >
       <AppBar />
-
       <BoardBar />
+      <BoardContent />
     </Container>
   )
 }
