@@ -1,4 +1,3 @@
-import Typography from "@mui/material/Typography"
 import { useColorScheme } from "@mui/material/styles"
 import InputLabel from "@mui/material/InputLabel"
 import MenuItem from "@mui/material/MenuItem"
