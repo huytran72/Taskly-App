@@ -18,4 +18,4 @@ function AppBar() {
   )
 }
 
-export default index
+export default AppBar
