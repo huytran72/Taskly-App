@@ -1,4 +1,3 @@
-import HomeIcon from "@mui/icons-material/Home"
 import { pink } from "@mui/material/colors"
 import Typography from "@mui/material/Typography"
 import { useColorScheme } from "@mui/material/styles"
