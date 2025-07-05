@@ -1,4 +1,3 @@
-import { pink } from "@mui/material/colors"
 import Typography from "@mui/material/Typography"
 import { useColorScheme } from "@mui/material/styles"
 import InputLabel from "@mui/material/InputLabel"
