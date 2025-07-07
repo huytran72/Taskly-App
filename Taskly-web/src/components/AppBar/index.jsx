@@ -12,6 +12,7 @@ function AppBar() {
         alignItems: "center",
       }}
     >
+      <Box></Box>
       <ModeSelect />
     </Box>
   )
