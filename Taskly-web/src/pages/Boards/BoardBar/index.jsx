@@ -7,7 +7,7 @@ function BoardBar() {
       sx={{
         backgroundColor: "primary.dark",
         width: "100%",
-        height: "58px",
+        height: (theme) => theme.taskly.boardBarHeight,
         display: "flex",
         alignItems: "center",
       }}
