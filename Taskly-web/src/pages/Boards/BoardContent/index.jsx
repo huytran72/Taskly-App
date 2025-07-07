@@ -7,7 +7,8 @@ function BoardContent() {
       sx={{
         backgroundColor: "primary.main",
         width: "100%",
-        height: "calc(100vh - 106px)",
+        height: (theme) =>
+          `calc(100vh - ${theme.taskly.appBarHeight} - ${theme.taskly.boardBarHeight})`,
         display: "flex",
         alignItems: "center",
       }}
