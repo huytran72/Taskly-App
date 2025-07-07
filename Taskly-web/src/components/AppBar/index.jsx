@@ -10,6 +10,7 @@ function AppBar() {
         height: "48px",
         display: "flex",
         alignItems: "center",
+        justifyContent: "space-between",
       }}
     >
       <Box>Taskly</Box>
