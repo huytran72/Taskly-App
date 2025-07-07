@@ -13,8 +13,9 @@ function AppBar() {
       }}
     >
       <Box>Taskly</Box>
-      <ModeSelect />
-      <Box></Box>
+      <Box>
+        <ModeSelect />
+      </Box>
     </Box>
   )
 }
