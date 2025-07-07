@@ -8,13 +8,17 @@ function AppBar() {
     <Box
       sx={{
         width: "100%",
-        height: "48px",
+        height: (theme) => theme.Taskly.appBarHeight,
         display: "flex",
         alignItems: "center",
         justifyContent: "space-between",
       }}
     >
-      <Box>Taskly</Box>
+      <Box>
+        {" "}
+        <AppsIcon sx={{ color: "primary.main" }} />
+        Taskly
+      </Box>
       <Box>
         <ModeSelect />
       </Box>
