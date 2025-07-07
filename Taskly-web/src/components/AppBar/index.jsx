@@ -3,6 +3,7 @@ import Box from "@mui/material/Box"
 import ModeSelect from "~/components/ModeSelect"
 import AppsIcon from "@mui/icons-material/Apps"
 import { ReactComponent as TasklyIcon } from "~/assets/taskly.svg"
+import SvgIcon from "@mui/material/SvgIcon"
 
 function AppBar() {
   return (
