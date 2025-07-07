@@ -8,7 +8,7 @@ function AppBar() {
     <Box
       sx={{
         width: "100%",
-        height: (theme) => theme.appTaskly.appBarHeight,
+        height: (theme) => theme.taskly.appBarHeight,
         display: "flex",
         alignItems: "center",
         justifyContent: "space-between",
