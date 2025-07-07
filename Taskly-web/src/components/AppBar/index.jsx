@@ -13,8 +13,8 @@ function AppBar() {
       }}
     >
       <Box></Box>
-      <Box></Box>
       <ModeSelect />
+      <Box></Box>
     </Box>
   )
 }
