@@ -15,7 +15,7 @@ function AppBar() {
       }}
     >
       <Box>
-        <AppsIcon />
+        <AppsIcon sx={{ color: "primary.main" }} />
         Taskly
       </Box>
       <Box>
