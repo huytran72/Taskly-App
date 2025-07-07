@@ -18,7 +18,7 @@ function AppBar() {
     >
       <Box>
         <AppsIcon sx={{ color: "primary.main" }} />
-        Taskly
+        <SvgIcon component={TasklyIcon} inheritViewBox />
       </Box>
       <Box>
         <ModeSelect />
