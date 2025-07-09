@@ -19,7 +19,7 @@ function AppBar() {
     >
       <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
         <AppsIcon sx={{ color: "primary.main" }} />
-        <Box>
+        <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
           <SvgIcon
             component={TasklyIcon}
             inheritViewBox
