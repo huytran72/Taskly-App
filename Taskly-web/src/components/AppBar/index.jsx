@@ -7,6 +7,7 @@ import SvgIcon from "@mui/material/SvgIcon"
 function AppBar() {
   return (
     <Box
+      px={2}
       sx={{
         width: "100%",
         height: (theme) => theme.taskly.appBarHeight,
