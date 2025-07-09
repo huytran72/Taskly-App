@@ -19,13 +19,14 @@ function AppBar() {
     >
       <Box>
         <AppsIcon sx={{ color: "primary.main" }} />
-        <Box></Box>
-        <SvgIcon
-          component={TasklyIcon}
-          inheritViewBox
-          sx={{ color: "primary.main" }}
-        />
-        <Typography variant="span">Taskly</Typography>
+        <Box>
+          <SvgIcon
+            component={TasklyIcon}
+            inheritViewBox
+            sx={{ color: "primary.main" }}
+          />
+          <Typography variant="span">Taskly</Typography>
+        </Box>
       </Box>
       <Box>
         <ModeSelect />
