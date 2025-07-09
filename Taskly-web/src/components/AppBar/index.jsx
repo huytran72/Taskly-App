@@ -17,7 +17,7 @@ function AppBar() {
         justifyContent: "space-between",
       }}
     >
-      <Box>
+      <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
         <AppsIcon sx={{ color: "primary.main" }} />
         <Box>
           <SvgIcon
