@@ -3,7 +3,7 @@ import ModeSelect from "~/components/ModeSelect"
 import AppsIcon from "@mui/icons-material/Apps"
 import { ReactComponent as TasklyIcon } from "~/assets/taskly.svg"
 import SvgIcon from "@mui/material/SvgIcon"
-import { Typography } from "@mui/material"
+import Typography from "@mui/material/Typography"
 
 function AppBar() {
   return (
