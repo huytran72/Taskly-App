@@ -24,7 +24,7 @@ function AppBar() {
           inheritViewBox
           sx={{ color: "primary.main" }}
         />
-        <Typography>Taskly</Typography>
+        <Typography variant="span">Taskly</Typography>
       </Box>
       <Box>
         <ModeSelect />
