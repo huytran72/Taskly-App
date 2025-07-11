@@ -27,7 +27,11 @@ function AppBar() {
           />
           <Typography
             variant="span"
-            sx={{ fontSize: "1.2rem", fontWeight: "bold" }}
+            sx={{
+              fontSize: "1.2rem",
+              fontWeight: "bold",
+              color: "primary.main",
+            }}
           >
             Taskly
           </Typography>
