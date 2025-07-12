@@ -24,6 +24,11 @@ function Workspaces() {
       >
         Dashboard
       </Button>
+      <Menu></Menu>
+        <MenuItem onClick={handleClose}>Workspace 1</MenuItem>
+        <MenuItem onClick={handleClose}>Workspace 2</MenuItem>
+        <MenuItem onClick={handleClose}>Workspace 3</MenuItem>
+      </Menu>
     </Box>
   )
 }
