@@ -1,6 +1,6 @@
 import React from "react"
 import Box from "@mui/material/Box"
-import Button from "@mui/material"
+import Button from "@mui/material/Button"
 import Menu from "@mui/material/Menu"
 import MenuItem from "@mui/material/MenuItem"
 import Divider from "@mui/material/Divider"
