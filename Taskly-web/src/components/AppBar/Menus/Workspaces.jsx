@@ -31,7 +31,7 @@ function Workspaces() {
         aria-expanded={open ? "true" : undefined}
         onClick={handleClick}
       >
-        Dashboard
+        Workspaces
       </Button>
       <Menu
         id="basic-menu-workspaces"
