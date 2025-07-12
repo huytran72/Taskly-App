@@ -17,7 +17,7 @@ function Workspaces() {
   return (
     <Box>
       <Button
-        id="basic-menu"
+        id="basic-button-workspaces"
         aria-controls={open ? "basic-menu" : undefined}
         aria-haspopup="true"
         aria-expanded={open ? "true" : undefined}
@@ -31,7 +31,7 @@ function Workspaces() {
         open={open}
         onClose={handleClose}
         MenuListProps={{
-          "aria-labelledby": "basic-button",
+          "aria-labelledby": "basic-button-workspaces",
         }}
       >
         <MenuItem onClick={handleClose}>Profile</MenuItem>
