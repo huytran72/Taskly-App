@@ -31,9 +31,9 @@ function Workspaces() {
           "aria-labelledby": "basic-button",
         }}
       >
-        <MenuItem onClick={handleClose}>Workspace 1</MenuItem>
-        <MenuItem onClick={handleClose}>Workspace 2</MenuItem>
-        <MenuItem onClick={handleClose}>Workspace 3</MenuItem>
+        <MenuItem onClick={handleClose}>Profile</MenuItem>
+        <MenuItem onClick={handleClose}>My account</MenuItem>
+        <MenuItem onClick={handleClose}>Logout</MenuItem>
       </Menu>
     </Box>
   )
