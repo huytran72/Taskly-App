@@ -18,7 +18,7 @@ function Workspaces() {
     <Box>
       <Button
         id="basic-button-workspaces"
-        aria-controls={open ? "basic-menu" : undefined}
+        aria-controls={open ? "basic-menu-workspaces" : undefined}
         aria-haspopup="true"
         aria-expanded={open ? "true" : undefined}
         onClick={handleClick}
@@ -26,7 +26,7 @@ function Workspaces() {
         Dashboard
       </Button>
       <Menu
-        id="basic-menu"
+        id="basic-menu-workspaces"
         anchorEl={anchorEl}
         open={open}
         onClose={handleClose}
