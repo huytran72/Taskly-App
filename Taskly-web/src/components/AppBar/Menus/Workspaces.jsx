@@ -13,7 +13,15 @@ function Workspaces() {
   }
   return (
     <Box>
-      <Button>Dashboard</Button>
+      <Button
+        id="basic-menu"
+        anchorEl={anchorEl}
+        open={open}
+        onClose={handleClose}
+        MenuListProps={{}}
+      >
+        Dashboard
+      </Button>
     </Box>
   )
 }
