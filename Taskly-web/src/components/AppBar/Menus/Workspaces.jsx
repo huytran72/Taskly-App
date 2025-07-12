@@ -4,6 +4,7 @@ function Workspaces() {
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget)
   }
+  const handleClose = () => {}
   return <div></div>
 }
 
