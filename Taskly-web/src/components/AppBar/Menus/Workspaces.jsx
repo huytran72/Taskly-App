@@ -29,6 +29,9 @@ function Workspaces() {
         anchorEl={anchorEl}
         open={open}
         onClose={handleClose}
+        MenuListProps={{
+          "aria-labelledby": "basic-button",
+        }}
       >
         <MenuItem onClick={handleClose}>Workspace 1</MenuItem>
         <MenuItem onClick={handleClose}>Workspace 2</MenuItem>
