@@ -1,5 +1,6 @@
 import React from "react"
 import Box from "@mui/material/Box"
+import { Button } from "@mui/material"
 
 function Workspaces() {
   const [anchorEl, setAnchorEl] = React.useState(null)
@@ -10,7 +11,11 @@ function Workspaces() {
   const handleClose = () => {
     setAnchorEl(null)
   }
-  return <Box></Box>
+  return (
+    <Box>
+      <Button></Button>
+    </Box>
+  )
 }
 
 export default Workspaces
