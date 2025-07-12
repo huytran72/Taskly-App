@@ -10,7 +10,7 @@ function Workspaces() {
   const handleClose = () => {
     setAnchorEl(null)
   }
-  return <div>workspaces</div>
+  return <Box></Box>
 }
 
 export default Workspaces
