@@ -13,7 +13,7 @@ function Workspaces() {
   }
   return (
     <Box>
-      <Button></Button>
+      <Button>Dashboard</Button>
     </Box>
   )
 }
