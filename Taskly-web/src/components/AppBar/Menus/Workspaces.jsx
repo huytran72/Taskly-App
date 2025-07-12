@@ -18,7 +18,9 @@ function Workspaces() {
         anchorEl={anchorEl}
         open={open}
         onClose={handleClose}
-        MenuListProps={{}}
+        MenuListProps={{
+          "aria-labelledby": "basic-button",
+        }}
       >
         Dashboard
       </Button>
