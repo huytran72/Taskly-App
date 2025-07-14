@@ -12,6 +12,7 @@ import ContentCopy from "@mui/icons-material/ContentCopy"
 import ContentPaste from "@mui/icons-material/ContentPaste"
 import Cloud from "@mui/icons-material/Cloud"
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
+import Check from "@mui/icons-material/Check"
 
 function Recent() {
   const [anchorEl, setAnchorEl] = React.useState(null)
@@ -45,38 +46,30 @@ function Recent() {
         }}
       >
         <MenuItem>
-          <ListItemIcon>
-            <ContentCut fontSize="small" />
-          </ListItemIcon>
-          <ListItemText>Cut</ListItemText>
-          <Typography variant="body2" color="text.secondary">
-            ⌘X
-          </Typography>
+          <ListItemText inset>Single</ListItemText>
+        </MenuItem>
+        <MenuItem>
+          <ListItemText inset>1.15</ListItemText>
+        </MenuItem>
+        <MenuItem>
+          <ListItemText inset>Double</ListItemText>
         </MenuItem>
         <MenuItem>
           <ListItemIcon>
-            <ContentCopy fontSize="small" />
+            <Check />
           </ListItemIcon>
-          <ListItemText>Copy</ListItemText>
-          <Typography variant="body2" color="text.secondary">
-            ⌘C
-          </Typography>
-        </MenuItem>
-        <MenuItem>
-          <ListItemIcon>
-            <ContentPaste fontSize="small" />
-          </ListItemIcon>
-          <ListItemText>Paste</ListItemText>
-          <Typography variant="body2" color="text.secondary">
-            ⌘V
-          </Typography>
+          Custom: 1.2
         </MenuItem>
         <Divider />
         <MenuItem>
-          <ListItemIcon>
-            <Cloud fontSize="small" />
-          </ListItemIcon>
-          <ListItemText>Web Clipboard</ListItemText>
+          <ListItemText>Add space before paragraph</ListItemText>
+        </MenuItem>
+        <MenuItem>
+          <ListItemText>Add space after paragraph</ListItemText>
+        </MenuItem>
+        <Divider />
+        <MenuItem>
+          <ListItemText>Custom spacing...</ListItemText>
         </MenuItem>
       </Menu>
     </Box>
