@@ -26,8 +26,8 @@ function Recent() {
   return (
     <Box>
       <Button
-        id="basic-button-workspaces"
-        aria-controls={open ? "basic-menu-workspaces" : undefined}
+        id="basic-button-recent"
+        aria-controls={open ? "basic-menu-recent" : undefined}
         aria-haspopup="true"
         aria-expanded={open ? "true" : undefined}
         onClick={handleClick}
@@ -36,12 +36,12 @@ function Recent() {
         Recent
       </Button>
       <Menu
-        id="basic-menu-workspaces"
+        id="basic-menu-recent"
         anchorEl={anchorEl}
         open={open}
         onClose={handleClose}
         MenuListProps={{
-          "aria-labelledby": "basic-button-workspaces",
+          "aria-labelledby": "basic-button-recent",
         }}
       >
         <MenuItem>
