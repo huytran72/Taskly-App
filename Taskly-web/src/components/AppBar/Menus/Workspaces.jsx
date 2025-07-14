@@ -31,6 +31,7 @@ function Workspaces() {
         aria-haspopup="true"
         aria-expanded={open ? "true" : undefined}
         onClick={handleClick}
+        endIcon={<ExpandMoreIcon />}
       >
         Workspaces
       </Button>
