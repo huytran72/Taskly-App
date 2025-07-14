@@ -38,6 +38,7 @@ function AppBar() {
           </Typography>
         </Box>
         <Workspaces />
+        <Recent />
       </Box>
       <Box>
         <ModeSelect />
