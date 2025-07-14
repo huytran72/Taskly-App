@@ -5,6 +5,7 @@ import { ReactComponent as TasklyIcon } from "~/assets/taskly.svg"
 import SvgIcon from "@mui/material/SvgIcon"
 import Typography from "@mui/material/Typography"
 import Workspaces from "./Menus/Workspaces"
+import Recent from "./Menus/Recent"
 
 function AppBar() {
   return (
