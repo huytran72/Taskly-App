@@ -9,7 +9,7 @@ import ListItemIcon from "@mui/material/ListItemIcon"
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 import Check from "@mui/icons-material/Check"
 
-function Starred() {
+function Templates() {
   const [anchorEl, setAnchorEl] = React.useState(null)
   const open = Boolean(anchorEl)
   const handleClick = (event) => {
@@ -29,7 +29,7 @@ function Starred() {
         onClick={handleClick}
         endIcon={<ExpandMoreIcon />}
       >
-        Starred
+        Templates
       </Button>
       <Menu
         id="basic-menu-starred"
@@ -71,4 +71,4 @@ function Starred() {
   )
 }
 
-export default Starred
+export default Templates
