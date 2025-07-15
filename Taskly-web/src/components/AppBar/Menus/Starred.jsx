@@ -22,8 +22,8 @@ function Starred() {
   return (
     <Box>
       <Button
-        id="basic-button-recent"
-        aria-controls={open ? "basic-menu-recent" : undefined}
+        id="basic-button-starred"
+        aria-controls={open ? "basic-menu-starred" : undefined}
         aria-haspopup="true"
         aria-expanded={open ? "true" : undefined}
         onClick={handleClick}
@@ -32,12 +32,12 @@ function Starred() {
         Starred
       </Button>
       <Menu
-        id="basic-menu-recent"
+        id="basic-menu-starred"
         anchorEl={anchorEl}
         open={open}
         onClose={handleClose}
         MenuListProps={{
-          "aria-labelledby": "basic-button-recent",
+          "aria-labelledby": "basic-button-starred",
         }}
       >
         <MenuItem>
