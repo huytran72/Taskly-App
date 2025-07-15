@@ -6,6 +6,8 @@ import SvgIcon from "@mui/material/SvgIcon"
 import Typography from "@mui/material/Typography"
 import Workspaces from "./Menus/Workspaces"
 import Recent from "./Menus/Recent"
+import { Star } from "@mui/icons-material"
+import Starred from "./Menus/Starred"
 
 function AppBar() {
   return (
@@ -40,6 +42,8 @@ function AppBar() {
         </Box>
         <Workspaces />
         <Recent />
+        <Starred />
+        <Templates />
       </Box>
       <Box>
         <ModeSelect />
