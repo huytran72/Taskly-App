@@ -9,7 +9,7 @@ import ListItemIcon from "@mui/material/ListItemIcon"
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 import Check from "@mui/icons-material/Check"
 
-function Recent() {
+function Starred() {
   const [anchorEl, setAnchorEl] = React.useState(null)
   const open = Boolean(anchorEl)
   const handleClick = (event) => {
@@ -29,7 +29,7 @@ function Recent() {
         onClick={handleClick}
         endIcon={<ExpandMoreIcon />}
       >
-        Recent
+        Starred
       </Button>
       <Menu
         id="basic-menu-recent"
@@ -71,4 +71,4 @@ function Recent() {
   )
 }
 
-export default Recent
+export default Starred
