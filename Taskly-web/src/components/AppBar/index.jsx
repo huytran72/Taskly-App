@@ -8,6 +8,7 @@ import Workspaces from "./Menus/Workspaces"
 import Recent from "./Menus/Recent"
 import { Star } from "@mui/icons-material"
 import Starred from "./Menus/Starred"
+import Templates from "./Menus/Templates"
 
 function AppBar() {
   return (
