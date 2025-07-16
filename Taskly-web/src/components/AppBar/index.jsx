@@ -49,6 +49,7 @@ function AppBar() {
         <Button variant="outlined">Create</Button>
       </Box>
       <Box>
+        <TextField id="outlined-search" label="Search field" type="search" />
         <ModeSelect />
       </Box>
     </Box>
