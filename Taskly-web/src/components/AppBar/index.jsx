@@ -61,8 +61,8 @@ function AppBar() {
         />
         <ModeSelect />
 
-        <Tooltip title="Delete">
-          <Badge color="secondary" variant="dot">
+        <Tooltip title="Notification">
+          <Badge color="secondary" variant="dot" sx={{ cursor: "pointer" }}>
             <NotificationsNoneIcon />
           </Badge>
         </Tooltip>
