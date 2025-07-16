@@ -57,6 +57,10 @@ function AppBar() {
           size="small"
         />
         <ModeSelect />
+
+        <Badge color="secondary" variant="dot">
+          <MailIcon />
+        </Badge>
       </Box>
     </Box>
   )
