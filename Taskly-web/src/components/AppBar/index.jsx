@@ -9,7 +9,7 @@ import Recent from "./Menus/Recent"
 import { Star } from "@mui/icons-material"
 import Starred from "./Menus/Starred"
 import Templates from "./Menus/Templates"
-import { Button } from "@mui/material"
+import Button from "@mui/material"
 
 function AppBar() {
   return (
@@ -46,7 +46,7 @@ function AppBar() {
         <Recent />
         <Starred />
         <Templates />
-        <Button variant="outlined">Outlined</Button>
+        <Button variant="outlined">Create</Button>
       </Box>
       <Box>
         <ModeSelect />
