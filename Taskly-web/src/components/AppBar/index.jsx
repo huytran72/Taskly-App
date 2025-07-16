@@ -48,8 +48,14 @@ function AppBar() {
         <Templates />
         <Button variant="outlined">Create</Button>
       </Box>
-      <Box>
-        <TextField id="outlined-search" label="Search field" type="search" />
+
+      <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
+        <TextField
+          id="outlined-search"
+          label="Search..."
+          type="search"
+          size="small"
+        />
         <ModeSelect />
       </Box>
     </Box>
