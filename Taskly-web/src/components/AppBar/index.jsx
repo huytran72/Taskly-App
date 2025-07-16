@@ -10,6 +10,7 @@ import Starred from "./Menus/Starred"
 import Templates from "./Menus/Templates"
 import Button from "@mui/material/Button"
 import TextField from "@mui/material/TextField"
+import Badge from "@mui/material/Badge"
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone"
 
 function AppBar() {
@@ -60,7 +61,7 @@ function AppBar() {
         <ModeSelect />
 
         <Badge color="secondary" variant="dot">
-          <MailIcon />
+          <NotificationsNoneIcon />
         </Badge>
       </Box>
     </Box>
