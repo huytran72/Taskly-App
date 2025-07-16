@@ -61,9 +61,11 @@ function AppBar() {
         />
         <ModeSelect />
 
-        <Badge color="secondary" variant="dot">
-          <NotificationsNoneIcon />
-        </Badge>
+        <Tooltip title="Delete">
+          <Badge color="secondary" variant="dot">
+            <NotificationsNoneIcon />
+          </Badge>
+        </Tooltip>
       </Box>
     </Box>
   )
