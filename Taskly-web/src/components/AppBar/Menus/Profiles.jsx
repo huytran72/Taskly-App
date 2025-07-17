@@ -6,8 +6,8 @@ import MenuItem from "@mui/material/MenuItem"
 import Divider from "@mui/material/Divider"
 import ListItemText from "@mui/material/ListItemText"
 import ListItemIcon from "@mui/material/ListItemIcon"
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 import Check from "@mui/icons-material/Check"
+import Avatar from "@mui/material/Avatar"
 
 function Profiles() {
   const [anchorEl, setAnchorEl] = React.useState(null)
@@ -28,7 +28,7 @@ function Profiles() {
         aria-expanded={open ? "true" : undefined}
         onClick={handleClick}
       >
-        Profiles
+        <Avatar sx={{ width: 32, height: 32 }}>M</Avatar>
       </Button>
       <Menu
         id="basic-menu-profiles"
