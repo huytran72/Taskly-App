@@ -8,13 +8,13 @@ import Workspaces from "./Menus/Workspaces"
 import Recent from "./Menus/Recent"
 import Starred from "./Menus/Starred"
 import Templates from "./Menus/Templates"
+import Profiles from "./Menus/Profiles"
 import Button from "@mui/material/Button"
 import TextField from "@mui/material/TextField"
 import Badge from "@mui/material/Badge"
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone"
 import Tooltip from "@mui/material/Tooltip"
 import HelpOutlineIcon from "@mui/icons-material/HelpOutline"
-import { Help } from "@mui/icons-material"
 
 function AppBar() {
   return (
@@ -72,6 +72,8 @@ function AppBar() {
         <Tooltip title="Help">
           <HelpOutlineIcon sx={{ cursor: "pointer" }} />
         </Tooltip>
+
+        <Profiles />
       </Box>
     </Box>
   )
