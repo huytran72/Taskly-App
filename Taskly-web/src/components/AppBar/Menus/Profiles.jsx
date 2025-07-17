@@ -9,7 +9,7 @@ import ListItemIcon from "@mui/material/ListItemIcon"
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 import Check from "@mui/icons-material/Check"
 
-function Recent() {
+function Profiles() {
   const [anchorEl, setAnchorEl] = React.useState(null)
   const open = Boolean(anchorEl)
   const handleClick = (event) => {
@@ -22,22 +22,22 @@ function Recent() {
   return (
     <Box>
       <Button
-        id="basic-button-recent"
-        aria-controls={open ? "basic-menu-recent" : undefined}
+        id="basic-button-profiles"
+        aria-controls={open ? "basic-menu-profiles" : undefined}
         aria-haspopup="true"
         aria-expanded={open ? "true" : undefined}
         onClick={handleClick}
         endIcon={<ExpandMoreIcon />}
       >
-        Recent
+        Profiles
       </Button>
       <Menu
-        id="basic-menu-recent"
+        id="basic-menu-profiles"
         anchorEl={anchorEl}
         open={open}
         onClose={handleClose}
         MenuListProps={{
-          "aria-labelledby": "basic-button-recent",
+          "aria-labelledby": "basic-button-profiles",
         }}
       >
         <MenuItem>
@@ -71,4 +71,4 @@ function Recent() {
   )
 }
 
-export default Recent
+export default Profiles
