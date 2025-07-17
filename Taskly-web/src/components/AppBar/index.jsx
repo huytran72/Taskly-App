@@ -14,6 +14,7 @@ import Badge from "@mui/material/Badge"
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone"
 import Tooltip from "@mui/material/Tooltip"
 import HelpOutlineIcon from "@mui/icons-material/HelpOutline"
+import { Help } from "@mui/icons-material"
 
 function AppBar() {
   return (
@@ -68,10 +69,8 @@ function AppBar() {
           </Badge>
         </Tooltip>
 
-        <Tooltip title="Notification">
-          <Badge color="secondary" variant="dot" sx={{ cursor: "pointer" }}>
-            <NotificationsNoneIcon />
-          </Badge>
+        <Tooltip title="Help">
+          <HelpOutlineIcon />
         </Tooltip>
       </Box>
     </Box>
