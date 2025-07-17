@@ -70,7 +70,7 @@ function AppBar() {
         </Tooltip>
 
         <Tooltip title="Help">
-          <HelpOutlineIcon />
+          <HelpOutlineIcon sx={{ cursor: "pointer" }} />
         </Tooltip>
       </Box>
     </Box>
