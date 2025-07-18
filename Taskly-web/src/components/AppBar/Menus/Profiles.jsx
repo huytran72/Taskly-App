@@ -23,16 +23,6 @@ function Profiles() {
 
   return (
     <Box>
-      <Button
-        id="basic-button-profiles"
-        aria-controls={open ? "basic-menu-profiles" : undefined}
-        aria-haspopup="true"
-        aria-expanded={open ? "true" : undefined}
-        onClick={handleClick}
-        sx={{ padding: 0 }}
-      >
-        <Avatar sx={{ width: 32, height: 32 }} alt="Profile Picture" />
-      </Button>
       <Tooltip title="Account settings">
         <IconButton
           onClick={handleClick}
@@ -42,7 +32,7 @@ function Profiles() {
           aria-haspopup="true"
           aria-expanded={open ? "true" : undefined}
         >
-          <Avatar sx={{ width: 32, height: 32 }}>M</Avatar>
+          <Avatar sx={{ width: 32, height: 32 }} alt="Profile Picture" />
         </IconButton>
       </Tooltip>
       <Menu
