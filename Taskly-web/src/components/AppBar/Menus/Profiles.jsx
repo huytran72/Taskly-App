@@ -10,6 +10,9 @@ import Check from "@mui/icons-material/Check"
 import Avatar from "@mui/material/Avatar"
 import IconButton from "@mui/material/IconButton"
 import Tooltip from "@mui/material/Tooltip"
+import PersonAdd from "@mui/icons-material/PersonAdd"
+import Settings from "@mui/icons-material/Settings"
+import Logout from "@mui/icons-material/Logout"
 
 function Profiles() {
   const [anchorEl, setAnchorEl] = React.useState(null)
@@ -44,31 +47,30 @@ function Profiles() {
           "aria-labelledby": "basic-button-profiles",
         }}
       >
-        <MenuItem>
-          <ListItemText inset>Single</ListItemText>
+        <MenuItem onClick={handleClose}>
+          <Avatar /> Profile
         </MenuItem>
-        <MenuItem>
-          <ListItemText inset>1.15</ListItemText>
+        <MenuItem onClick={handleClose}>
+          <Avatar /> My account
         </MenuItem>
-        <MenuItem>
-          <ListItemText inset>Double</ListItemText>
-        </MenuItem>
-        <MenuItem>
+        <Divider />
+        <MenuItem onClick={handleClose}>
           <ListItemIcon>
-            <Check />
+            <PersonAdd fontSize="small" />
           </ListItemIcon>
-          Custom: 1.2
+          Add another account
         </MenuItem>
-        <Divider />
-        <MenuItem>
-          <ListItemText>Add space before paragraph</ListItemText>
+        <MenuItem onClick={handleClose}>
+          <ListItemIcon>
+            <Settings fontSize="small" />
+          </ListItemIcon>
+          Settings
         </MenuItem>
-        <MenuItem>
-          <ListItemText>Add space after paragraph</ListItemText>
-        </MenuItem>
-        <Divider />
-        <MenuItem>
-          <ListItemText>Custom spacing...</ListItemText>
+        <MenuItem onClick={handleClose}>
+          <ListItemIcon>
+            <Logout fontSize="small" />
+          </ListItemIcon>
+          Logout
         </MenuItem>
       </Menu>
     </Box>
