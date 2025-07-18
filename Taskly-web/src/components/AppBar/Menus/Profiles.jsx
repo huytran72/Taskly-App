@@ -27,6 +27,7 @@ function Profiles() {
         aria-haspopup="true"
         aria-expanded={open ? "true" : undefined}
         onClick={handleClick}
+        sx={{ padding: 0 }}
       >
         <Avatar sx={{ width: 32, height: 32 }} alt="Profile Picture" />
       </Button>
