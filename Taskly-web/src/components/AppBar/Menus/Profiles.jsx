@@ -8,6 +8,8 @@ import ListItemText from "@mui/material/ListItemText"
 import ListItemIcon from "@mui/material/ListItemIcon"
 import Check from "@mui/icons-material/Check"
 import Avatar from "@mui/material/Avatar"
+import IconButton from "@mui/material/IconButton"
+import Tooltip from "@mui/material/Tooltip"
 
 function Profiles() {
   const [anchorEl, setAnchorEl] = React.useState(null)
@@ -31,6 +33,18 @@ function Profiles() {
       >
         <Avatar sx={{ width: 32, height: 32 }} alt="Profile Picture" />
       </Button>
+      <Tooltip title="Account settings">
+        <IconButton
+          onClick={handleClick}
+          size="small"
+          sx={{ ml: 2 }}
+          aria-controls={open ? "account-menu" : undefined}
+          aria-haspopup="true"
+          aria-expanded={open ? "true" : undefined}
+        >
+          <Avatar sx={{ width: 32, height: 32 }}>M</Avatar>
+        </IconButton>
+      </Tooltip>
       <Menu
         id="basic-menu-profiles"
         anchorEl={anchorEl}
