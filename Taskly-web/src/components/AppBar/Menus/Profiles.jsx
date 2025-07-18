@@ -27,7 +27,7 @@ function Profiles() {
         <IconButton
           onClick={handleClick}
           size="small"
-          sx={{ ml: 2 }}
+          sx={{ padding: 0 }}
           aria-controls={open ? "basic-menu-profiles" : undefined}
           aria-haspopup="true"
           aria-expanded={open ? "true" : undefined}
