@@ -28,7 +28,7 @@ function Profiles() {
         aria-expanded={open ? "true" : undefined}
         onClick={handleClick}
       >
-        <Avatar sx={{ width: 32, height: 32 }}>M</Avatar>
+        <Avatar sx={{ width: 32, height: 32 }} alt="Profile Picture" />
       </Button>
       <Menu
         id="basic-menu-profiles"
