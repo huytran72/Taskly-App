@@ -28,7 +28,7 @@ function Profiles() {
           onClick={handleClick}
           size="small"
           sx={{ ml: 2 }}
-          aria-controls={open ? "account-menu" : undefined}
+          aria-controls={open ? "basic-menu-profiles" : undefined}
           aria-haspopup="true"
           aria-expanded={open ? "true" : undefined}
         >
