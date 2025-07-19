@@ -44,11 +44,11 @@ function Profiles() {
           "aria-labelledby": "basic-button-profiles",
         }}
       >
-        <MenuItem onClick={handleClose}>
+        <MenuItem>
           <Avatar sx={{ width: 32, height: 32, mr: 2 }} alt="Profile Picture" />{" "}
           Profile
         </MenuItem>
-        <MenuItem onClick={handleClose}>
+        <MenuItem>
           <Avatar sx={{ width: 32, height: 32, mr: 2 }} /> My account
         </MenuItem>
         <Divider />
