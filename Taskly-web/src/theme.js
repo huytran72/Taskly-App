@@ -24,12 +24,9 @@ const theme = extendTheme({
     },
   },
   components: {
-    // Name of the component
     MuiButton: {
       styleOverrides: {
-        // Name of the slot
         root: {
-          // Some CSS
           fontSize: "1rem",
         },
       },
