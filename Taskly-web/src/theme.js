@@ -33,12 +33,15 @@ const theme = extendTheme({
     },
     MuiOutlinedInput: {
       styleOverrides: {
-        root: ((theme)) => {
-          
+        root: ({ theme }) => {
+          return {
+            color: theme.palette.primary.main,
+          }
         },
       },
     },
   },
+  // .. other theme options
 })
 
 export default theme
