@@ -27,7 +27,7 @@ const theme = extendTheme({
     MuiButton: {
       styleOverrides: {
         root: {
-          fontSize: "1rem",
+          textTransform: "none",
         },
       },
     },
