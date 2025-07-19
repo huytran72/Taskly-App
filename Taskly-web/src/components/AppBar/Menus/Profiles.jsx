@@ -45,7 +45,7 @@ function Profiles() {
         }}
       >
         <MenuItem onClick={handleClose}>
-          <Avatar sx={{ width: 32, height: 32 }} alt="Profile Picture" />{" "}
+          <Avatar sx={{ width: 32, height: 32, mr: 2 }} alt="Profile Picture" />{" "}
           Profile
         </MenuItem>
         <MenuItem onClick={handleClose}>
