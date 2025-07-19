@@ -31,6 +31,14 @@ const theme = extendTheme({
         },
       },
     },
+      styleOverrides: {
+        styleOverrides: {
+          root: {
+            textTransform: "none",
+          },
+        },
+      },
+    },
   },
 })
 
