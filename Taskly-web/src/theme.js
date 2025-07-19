@@ -31,11 +31,10 @@ const theme = extendTheme({
         },
       },
     },
+    MuiOutlinedInput: {
       styleOverrides: {
-        styleOverrides: {
-          root: {
-            textTransform: "none",
-          },
+        root: ((theme)) => {
+          
         },
       },
     },
