@@ -49,7 +49,7 @@ function Profiles() {
           Profile
         </MenuItem>
         <MenuItem onClick={handleClose}>
-          <Avatar /> My account
+          <Avatar sx={{ width: 32, height: 32, mr: 2 }} /> My account
         </MenuItem>
         <Divider />
         <MenuItem onClick={handleClose}>
