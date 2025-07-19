@@ -23,7 +23,18 @@ const theme = extendTheme({
       // spacing: (factor) => `${0.25 * factor}rem`,
     },
   },
-  // ...other properties
+  components: {
+    // Name of the component
+    MuiButton: {
+      styleOverrides: {
+        // Name of the slot
+        root: {
+          // Some CSS
+          fontSize: "1rem",
+        },
+      },
+    },
+  },
 })
 
 export default theme
