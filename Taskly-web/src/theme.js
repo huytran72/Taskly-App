@@ -37,7 +37,7 @@ const theme = extendTheme({
           color: theme.palette.primary.main,
           fontSize: "0.875rem", // 14px
           ".MuiOutlinedInput-notchedOutline": {
-            borderColor: theme.palette.primary.main,
+            borderColor: theme.palette.primary.light,
           },
         }),
       },
