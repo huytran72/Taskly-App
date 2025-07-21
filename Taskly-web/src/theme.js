@@ -26,7 +26,7 @@ const theme = extendTheme({
   components: {
     MuiButton: {
       styleOverrides: {
-        root: (theme) => ({
+        root: ({ theme }) => ({
           color: theme.palette.primary.main,
           fontSize: "0.875rem", // 14px
         }),
@@ -34,7 +34,7 @@ const theme = extendTheme({
     },
     MuiInputLabel: {
       styleOverrides: {
-        root: (theme) => ({
+        root: ({ theme }) => ({
           color: theme.palette.primary.main,
           fontSize: "0.875rem", // 14px
         }),
