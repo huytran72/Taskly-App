@@ -71,7 +71,7 @@ function AppBar() {
         </Tooltip>
 
         <Tooltip title="Help">
-          <HelpOutlineIcon sx={{ cursor: "pointer" }} />
+          <HelpOutlineIcon sx={{ cursor: "pointer", color: "primary.main" }} />
         </Tooltip>
 
         <Profiles />
