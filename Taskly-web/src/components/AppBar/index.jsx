@@ -49,7 +49,7 @@ function AppBar() {
           </Typography>
         </Box>
 
-        <Box>
+        <Box sx={{ display: { xs: "none", md: "flex" }, gap: 1 }}>
           <Workspaces />
           <Recent />
           <Starred />
