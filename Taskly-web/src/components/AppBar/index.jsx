@@ -48,11 +48,14 @@ function AppBar() {
             Taskly
           </Typography>
         </Box>
-        <Workspaces />
-        <Recent />
-        <Starred />
-        <Templates />
-        <Button variant="outlined">Create</Button>
+
+        <Box>
+          <Workspaces />
+          <Recent />
+          <Starred />
+          <Templates />
+          <Button variant="outlined">Create</Button>
+        </Box>
       </Box>
 
       <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
