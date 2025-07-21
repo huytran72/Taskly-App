@@ -44,6 +44,9 @@ const theme = extendTheme({
               borderColor: theme.palette.primary.main,
             },
           },
+          "& fieldset": {
+            borderWidth: "1px !important",
+          },
         }),
       },
     },
