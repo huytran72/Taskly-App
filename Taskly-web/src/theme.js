@@ -41,7 +41,7 @@ const theme = extendTheme({
           },
           "&:hover": {
             ".MuiOutlinedInput-notchedOutline": {
-              borderColor: theme.palette.primary.light,
+              borderColor: theme.palette.primary.main,
             },
           },
         }),
