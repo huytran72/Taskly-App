@@ -32,13 +32,6 @@ const theme = extendTheme({
         }),
       },
     },
-    MuiInputLabel: {
-      styleOverrides: {
-        root: {
-          textTransform: "none",
-        },
-      },
-    },
     MuiOutlinedInput: {
       styleOverrides: {
         root: ({ theme }) => ({
@@ -52,9 +45,9 @@ const theme = extendTheme({
               borderColor: theme.palette.primary.main,
             },
           },
-          "& fieldset": {
-            borderWidth: "1px !important", // Ensure consistent border width
-          },
+          // "& fieldset": {
+          //   borderWidth: "1px !important", // Ensure consistent border width
+          // },
         }),
       },
     },
