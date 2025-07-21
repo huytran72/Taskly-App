@@ -26,9 +26,7 @@ const theme = extendTheme({
   components: {
     MuiButton: {
       styleOverrides: {
-        root: {
-          textTransform: "none",
-        },
+        root: () => ({}),
       },
     },
     MuiInputLabel: {
