@@ -32,7 +32,7 @@ const theme = extendTheme({
             width: "8px",
             height: "8px",
           },
-          "*::-webkit-scrollbar": {
+          "*::-webkit-scrollbar-thumb": {
             width: "8px",
             height: "8px",
           },
