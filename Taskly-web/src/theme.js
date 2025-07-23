@@ -36,7 +36,10 @@ const theme = extendTheme({
             backgroundColor: "red",
             borderRadius: "8px",
           },
-        },
+          "*::-webkit-scrollbar-thumb": {
+            backgroundColor: "red",
+            borderRadius: "8px",
+          },
       },
     },
     MuiButton: {
