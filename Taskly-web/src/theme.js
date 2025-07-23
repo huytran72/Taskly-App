@@ -24,7 +24,10 @@ const theme = extendTheme({
     },
   },
   components: {
-    MuiCssBaseline: {},
+    MuiCssBaseline: {
+      styleOverrides: ({ theme }) => ({
+        body: {
+    },
     MuiButton: {
       styleOverrides: {
         root: ({ theme }) => ({
