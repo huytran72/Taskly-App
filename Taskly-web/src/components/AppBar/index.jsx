@@ -65,6 +65,7 @@ function AppBar() {
           label="Search..."
           type="search"
           size="small"
+          sx={{ minWidth: "120px" }}
         />
         <ModeSelect />
 
