@@ -33,8 +33,8 @@ const theme = extendTheme({
             height: "8px",
           },
           "*::-webkit-scrollbar-thumb": {
-            width: "8px",
-            height: "8px",
+            backgroundColor: "red",
+            borderRadius: "8px",
           },
         },
       },
