@@ -40,6 +40,7 @@ const theme = extendTheme({
             backgroundColor: "blue",
             borderRadius: "8px",
           },
+        },
       },
     },
     MuiButton: {
