@@ -26,7 +26,9 @@ const theme = extendTheme({
   components: {
     MuiCssBaseline: {
       styleOverrides: {
-        body: {},
+        body: {
+          "::-webkit-scrollbar": {},
+        },
       },
     },
     MuiButton: {
