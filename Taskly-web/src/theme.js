@@ -1,5 +1,6 @@
 import { experimental_extendTheme as extendTheme } from "@mui/material/styles"
 import { cyan, deepOrange, orange, teal } from "@mui/material/colors"
+import { Height } from "@mui/icons-material"
 
 // Create a theme instance.
 const theme = extendTheme({
@@ -28,7 +29,8 @@ const theme = extendTheme({
       styleOverrides: {
         body: {
           "*::-webkit-scrollbar": {
-            withth: "8px",
+            width: "8px",
+            height: "8px",
           },
         },
       },
