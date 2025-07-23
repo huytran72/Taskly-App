@@ -4,7 +4,7 @@ import { cyan, deepOrange, orange, teal } from "@mui/material/colors"
 // Create a theme instance.
 const theme = extendTheme({
   taskly: {
-    appBarHeight: "58px",
+    appBarHeight: "70px",
     boardBarHeight: "60px",
   },
   colorSchemes: {
