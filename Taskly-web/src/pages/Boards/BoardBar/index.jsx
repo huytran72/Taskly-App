@@ -9,6 +9,7 @@ function BoardBar() {
         display: "flex",
         alignItems: "center",
         justifyContent: "center-between",
+        gap: 2,
       }}
     >
       Board Bar
