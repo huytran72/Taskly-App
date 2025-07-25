@@ -8,6 +8,7 @@ function BoardBar() {
         height: (theme) => theme.taskly.boardBarHeight,
         display: "flex",
         alignItems: "center",
+        justifyContent: "center-between",
       }}
     >
       Board Bar
