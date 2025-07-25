@@ -37,7 +37,7 @@ const theme = extendTheme({
             borderRadius: "8px",
           },
           "*::-webkit-scrollbar-thumb:hover": {
-            backgroundColor: "blue",
+            backgroundColor: "#00b894",
             borderRadius: "8px",
           },
         },
