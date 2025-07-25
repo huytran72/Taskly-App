@@ -10,6 +10,7 @@ function BoardBar() {
         alignItems: "center",
         justifyContent: "center-between",
         gap: 2,
+        overflowX: "auto",
       }}
     >
       Board Bar
