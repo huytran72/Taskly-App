@@ -11,6 +11,7 @@ function BoardBar() {
         justifyContent: "center-between",
         gap: 2,
         overflowX: "auto",
+        borderTop: "",
       }}
     >
       Board Bar
