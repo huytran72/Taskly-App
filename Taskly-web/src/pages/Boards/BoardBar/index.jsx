@@ -14,7 +14,7 @@ function BoardBar() {
         borderTop: "1px solid #00bfa5",
       }}
     >
-      Board Bar
+      <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}> </Box>
     </Box>
   )
 }
