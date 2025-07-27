@@ -24,6 +24,9 @@ function BoardBar() {
           border: "none",
           paddingX: "5px",
           borderRadius: "4px",
+          "& .MuiSvgIcon-root": {
+            color: "primary.main",
+          },
         }}
         icon={<DashboardIcon />}
         label="KennyTran Board"
