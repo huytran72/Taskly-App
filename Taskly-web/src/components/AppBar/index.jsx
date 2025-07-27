@@ -19,7 +19,6 @@ import HelpOutlineIcon from "@mui/icons-material/HelpOutline"
 function AppBar() {
   return (
     <Box
-      px={2}
       sx={{
         width: "100%",
         height: (theme) => theme.taskly.appBarHeight,
@@ -27,6 +26,7 @@ function AppBar() {
         alignItems: "center",
         justifyContent: "space-between",
         gap: 2,
+        paddingX: 2,
         overflowX: "auto",
       }}
     >
