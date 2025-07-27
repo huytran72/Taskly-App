@@ -15,6 +15,7 @@ function BoardBar() {
       }}
     >
       <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}> </Box>
+      <Chip icon={<FaceIcon />} label="With Icon" />
       <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}> </Box>
     </Box>
   )
