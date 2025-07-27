@@ -17,7 +17,11 @@ function BoardBar() {
       }}
     >
       <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}> </Box>
-      <Chip icon={<DashboardIcon />} label="KennyTran Board" />
+      <Chip
+        icon={<DashboardIcon />}
+        label="KennyTran Board"
+        onClick={() => {}}
+      />
       <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}> </Box>
     </Box>
   )
