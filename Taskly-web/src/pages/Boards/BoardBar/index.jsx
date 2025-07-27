@@ -35,6 +35,24 @@ function BoardBar() {
         label="KennyTran Board"
         clickable
       />
+      <Chip
+        sx={{
+          color: "primary.main",
+          bgcolor: "white",
+          border: "none",
+          paddingX: "5px",
+          borderRadius: "4px",
+          "& .MuiSvgIcon-root": {
+            color: "primary.main",
+          },
+          "&:hover": {
+            bgcolor: "primary.50",
+          },
+        }}
+        icon={<DashboardIcon />}
+        label="Public/Private Workspace"
+        clickable
+      />
       <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}> </Box>
     </Box>
   )
