@@ -28,7 +28,7 @@ function BoardBar() {
             color: "primary.main",
           },
           "&:hover": {
-            bgcolor: "primary.light",
+            bgcolor: "primary.50",
           },
         }}
         icon={<DashboardIcon />}
