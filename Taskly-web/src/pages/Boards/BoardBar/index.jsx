@@ -27,6 +27,9 @@ function BoardBar() {
           "& .MuiSvgIcon-root": {
             color: "primary.main",
           },
+          "&:hover": {
+            bgcolor: "primary.light",
+          },
         }}
         icon={<DashboardIcon />}
         label="KennyTran Board"
