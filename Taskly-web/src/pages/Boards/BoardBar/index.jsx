@@ -5,7 +5,6 @@ import DashboardIcon from "@mui/icons-material/Dashboard"
 function BoardBar() {
   return (
     <Box
-      px={2}
       sx={{
         width: "100%",
         height: (theme) => theme.taskly.boardBarHeight,
@@ -13,6 +12,7 @@ function BoardBar() {
         alignItems: "center",
         justifyContent: "center-between",
         gap: 2,
+        padding: 2,
         overflowX: "auto",
         borderTop: "1px solid #00bfa5",
       }}
