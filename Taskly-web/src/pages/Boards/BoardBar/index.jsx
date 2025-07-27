@@ -12,7 +12,6 @@ function BoardBar() {
         alignItems: "center",
         justifyContent: "center-between",
         gap: 2,
-        padding: 2,
         overflowX: "auto",
         borderTop: "1px solid #00bfa5",
       }}
