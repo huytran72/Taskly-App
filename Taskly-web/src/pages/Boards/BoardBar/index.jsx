@@ -1,4 +1,6 @@
 import Box from "@mui/material/Box"
+import Chip from "@mui/material/Chip"
+import DashboardIcon from "@mui/icons-material/Dashboard"
 
 function BoardBar() {
   return (
@@ -15,7 +17,7 @@ function BoardBar() {
       }}
     >
       <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}> </Box>
-      <Chip icon={<FaceIcon />} label="With Icon" />
+      <Chip icon={<DashboardIcon />} label="KennyTran" />
       <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}> </Box>
     </Box>
   )
