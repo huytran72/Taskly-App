@@ -18,7 +18,7 @@ function BoardBar() {
     >
       <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}> </Box>
       <Chip
-        sx={{ color: "primary.main" }}
+        sx={{ color: "primary.main", bgcolor: "white" }}
         icon={<DashboardIcon />}
         label="KennyTran Board"
         clickable
