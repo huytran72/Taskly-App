@@ -4,7 +4,19 @@ import DashboardIcon from "@mui/icons-material/Dashboard"
 import VpnLockIcon from "@mui/icons-material/VpnLock"
 import AddToDriveIcon from "@mui/icons-material/AddToDrive"
 
-const MENU_STYLES = {}
+const MENU_STYLES = {
+  color: "primary.main",
+  bgcolor: "white",
+  border: "none",
+  paddingX: "5px",
+  borderRadius: "4px",
+  "& .MuiSvgIcon-root": {
+    color: "primary.main",
+  },
+  "&:hover": {
+    bgcolor: "primary.50",
+  },
+}
 
 function BoardBar() {
   return (
