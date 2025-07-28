@@ -46,19 +46,7 @@ function BoardBar() {
         clickable
       />
       <Chip
-        sx={{
-          color: "primary.main",
-          bgcolor: "white",
-          border: "none",
-          paddingX: "5px",
-          borderRadius: "4px",
-          "& .MuiSvgIcon-root": {
-            color: "primary.main",
-          },
-          "&:hover": {
-            bgcolor: "primary.50",
-          },
-        }}
+        sx={MENU_STYLES}
         icon={<AddToDriveIcon />}
         label="Add To Google Drive"
         clickable
