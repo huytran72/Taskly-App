@@ -1,6 +1,7 @@
 import Box from "@mui/material/Box"
 import Chip from "@mui/material/Chip"
 import DashboardIcon from "@mui/icons-material/Dashboard"
+import VpnLockIcon from "@mui/icons-material/VpnLock"
 
 function BoardBar() {
   return (
