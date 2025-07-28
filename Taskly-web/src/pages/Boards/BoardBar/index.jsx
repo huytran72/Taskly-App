@@ -69,7 +69,7 @@ function BoardBar() {
             bgcolor: "primary.50",
           },
         }}
-        icon={<VpnLockIcon />}
+        icon={<AddToDriveIcon />}
         label="Add To Google Drive"
         clickable
       />
