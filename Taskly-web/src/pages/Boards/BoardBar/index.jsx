@@ -5,6 +5,8 @@ import VpnLockIcon from "@mui/icons-material/VpnLock"
 import AddToDriveIcon from "@mui/icons-material/AddToDrive"
 import BoltIcon from "@mui/icons-material/Bolt"
 import FilterListIcon from "@mui/icons-material/FilterList"
+import Avatar from "@mui/material/Avatar"
+import AvatarGroup from "@mui/material/AvatarGroup"
 
 const MENU_STYLES = {
   color: "primary.main",
