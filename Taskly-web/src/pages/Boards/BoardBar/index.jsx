@@ -3,6 +3,7 @@ import Chip from "@mui/material/Chip"
 import DashboardIcon from "@mui/icons-material/Dashboard"
 import VpnLockIcon from "@mui/icons-material/VpnLock"
 import AddToDriveIcon from "@mui/icons-material/AddToDrive"
+import BoltIcon from "@mui/icons-material/Bolt"
 
 const MENU_STYLES = {
   color: "primary.main",
