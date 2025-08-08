@@ -36,32 +36,38 @@ function BoardBar() {
         borderTop: "1px solid #00bfa5",
       }}
     >
-      <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}> </Box>
-      <Chip
-        sx={MENU_STYLES}
-        icon={<DashboardIcon />}
-        label="KennyTran Board"
-        clickable
-      />
-      <Chip
-        sx={MENU_STYLES}
-        icon={<VpnLockIcon />}
-        label="Public/Private Workspace"
-        clickable
-      />
-      <Chip
-        sx={MENU_STYLES}
-        icon={<AddToDriveIcon />}
-        label="Add To Google Drive"
-        clickable
-      />
-      <Chip sx={MENU_STYLES} icon={<BoltIcon />} label="Automation" clickable />
-      <Chip
-        sx={MENU_STYLES}
-        icon={<FilterListIcon />}
-        label="Filters"
-        clickable
-      />
+      <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
+        <Chip
+          sx={MENU_STYLES}
+          icon={<DashboardIcon />}
+          label="KennyTran Board"
+          clickable
+        />
+        <Chip
+          sx={MENU_STYLES}
+          icon={<VpnLockIcon />}
+          label="Public/Private Workspace"
+          clickable
+        />
+        <Chip
+          sx={MENU_STYLES}
+          icon={<AddToDriveIcon />}
+          label="Add To Google Drive"
+          clickable
+        />
+        <Chip
+          sx={MENU_STYLES}
+          icon={<BoltIcon />}
+          label="Automation"
+          clickable
+        />
+        <Chip
+          sx={MENU_STYLES}
+          icon={<FilterListIcon />}
+          label="Filters"
+          clickable
+        />{" "}
+      </Box>
 
       <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
         <AvatarGroup max={4}>
