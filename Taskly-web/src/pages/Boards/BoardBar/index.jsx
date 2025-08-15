@@ -92,7 +92,10 @@ function BoardBar() {
             />
           </Tooltip>
           <Tooltip title="harrytran">
-            <Avatar alt="harrytran" src="/static/images/avatar/1.jpg" />
+            <Avatar
+              alt="harrytran"
+              src="https://i2-prod.mirror.co.uk/article34955058.ece/ALTERNATES/s615/0_SS-Daley-London-Fashion-Week-RTW-Spring-2025-Front-Row.jpg"
+            />
           </Tooltip>
           <Tooltip title="harrytran">
             <Avatar alt="harrytran" src="/static/images/avatar/1.jpg" />
