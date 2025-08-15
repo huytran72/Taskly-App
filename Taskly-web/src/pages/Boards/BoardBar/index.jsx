@@ -73,8 +73,8 @@ function BoardBar() {
 
       <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
         <AvatarGroup max={4} total={10}>
-          <Tooltip>
-            <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+          <Tooltip title="harrytran">
+            <Avatar alt="harrytran" src="/static/images/avatar/1.jpg" />
           </Tooltip>
         </AvatarGroup>
       </Box>
