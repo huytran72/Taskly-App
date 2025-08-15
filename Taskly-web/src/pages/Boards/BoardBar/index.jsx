@@ -76,6 +76,9 @@ function BoardBar() {
           <Tooltip title="harrytran">
             <Avatar alt="harrytran" src="/static/images/avatar/1.jpg" />
           </Tooltip>
+          <Tooltip title="harrytran">
+            <Avatar alt="harrytran" src="/static/images/avatar/1.jpg" />
+          </Tooltip>
         </AvatarGroup>
       </Box>
     </Box>
