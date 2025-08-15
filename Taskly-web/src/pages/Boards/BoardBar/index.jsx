@@ -98,7 +98,10 @@ function BoardBar() {
             />
           </Tooltip>
           <Tooltip title="harrytran">
-            <Avatar alt="harrytran" src="/static/images/avatar/1.jpg" />
+            <Avatar
+              alt="harrytran"
+              src="https://avatarfiles.alphacoders.com/215/215144.jpg"
+            />
           </Tooltip>
         </AvatarGroup>
       </Box>
