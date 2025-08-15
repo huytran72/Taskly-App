@@ -7,6 +7,7 @@ import BoltIcon from "@mui/icons-material/Bolt"
 import FilterListIcon from "@mui/icons-material/FilterList"
 import Avatar from "@mui/material/Avatar"
 import AvatarGroup from "@mui/material/AvatarGroup"
+import { Tooltip } from "@mui/material"
 
 const MENU_STYLES = {
   color: "primary.main",
@@ -72,7 +73,9 @@ function BoardBar() {
 
       <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
         <AvatarGroup max={4} total={10}>
-          <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+          <Tooltip>
+            <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+          </Tooltip>
         </AvatarGroup>
       </Box>
     </Box>
