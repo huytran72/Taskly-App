@@ -74,13 +74,22 @@ function BoardBar() {
       <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
         <AvatarGroup max={4} total={10}>
           <Tooltip title="harrytran">
-            <Avatar alt="harrytran" src="/static/images/avatar/1.jpg" />
+            <Avatar
+              alt="harrytran"
+              src="https://avatarfiles.alphacoders.com/375/375208.png"
+            />
           </Tooltip>
           <Tooltip title="harrytran">
-            <Avatar alt="harrytran" src="/static/images/avatar/1.jpg" />
+            <Avatar
+              alt="harrytran"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxdTRqwPR1myojz9l91VCadJ6NPHXDu9tteg&s"
+            />
           </Tooltip>
           <Tooltip title="harrytran">
-            <Avatar alt="harrytran" src="/static/images/avatar/1.jpg" />
+            <Avatar
+              alt="harrytran"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvfe7dkQpugWC-B6n2afO_JAukUXgOPvJzew&s"
+            />
           </Tooltip>
           <Tooltip title="harrytran">
             <Avatar alt="harrytran" src="/static/images/avatar/1.jpg" />
