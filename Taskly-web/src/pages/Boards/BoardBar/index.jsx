@@ -72,7 +72,7 @@ function BoardBar() {
       </Box>
 
       <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
-        <AvatarGroup max={4} total={10}>
+        <AvatarGroup max={5} total={10}>
           <Tooltip title="harrytran">
             <Avatar
               alt="harrytran"
