@@ -42,7 +42,7 @@ function BoardBar() {
         <Chip
           sx={MENU_STYLES}
           icon={<DashboardIcon />}
-          label="KennyTran Board"
+          label="HarryTran Board"
           clickable
         />
         <Chip
