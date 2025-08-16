@@ -8,6 +8,7 @@ import FilterListIcon from "@mui/icons-material/FilterList"
 import Avatar from "@mui/material/Avatar"
 import AvatarGroup from "@mui/material/AvatarGroup"
 import { Tooltip } from "@mui/material"
+import Button from "@mui/material/Button"
 
 const MENU_STYLES = {
   color: "primary.main",
@@ -72,6 +73,8 @@ function BoardBar() {
       </Box>
 
       <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
+        <Button variant="outlined">Create</Button>
+
         <AvatarGroup
           max={5}
           sx={{
