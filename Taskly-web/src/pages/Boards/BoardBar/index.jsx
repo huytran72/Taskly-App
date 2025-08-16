@@ -72,7 +72,16 @@ function BoardBar() {
       </Box>
 
       <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
-        <AvatarGroup max={5} sx={{ '&. MuiAvatar-root: {width: 32, height: 32}' }}>
+        <AvatarGroup
+          max={5}
+          sx={{
+            "& .MuiAvatar-root": {
+              width: 32,
+              height: 32,
+              fontSize: "16px",
+            },
+          }}
+        >
           <Tooltip title="harrytran">
             <Avatar
               alt="harrytran"
@@ -84,6 +93,7 @@ function BoardBar() {
               alt="harrytran"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxdTRqwPR1myojz9l91VCadJ6NPHXDu9tteg&s"
             />
+            ``
           </Tooltip>
           <Tooltip title="harrytran">
             <Avatar
