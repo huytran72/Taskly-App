@@ -76,6 +76,7 @@ function BoardBar() {
           <Tooltip title="harrytran">
             <Avatar
               alt="harrytran"
+              sx={{ width: 32, height: 32 }}
               src="https://avatarfiles.alphacoders.com/375/375208.png"
             />
           </Tooltip>
