@@ -99,7 +99,6 @@ function BoardBar() {
               alt="harrytran"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxdTRqwPR1myojz9l91VCadJ6NPHXDu9tteg&s"
             />
-            ``
           </Tooltip>
           <Tooltip title="harrytran">
             <Avatar
