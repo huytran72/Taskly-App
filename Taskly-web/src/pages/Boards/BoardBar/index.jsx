@@ -9,6 +9,7 @@ import Avatar from "@mui/material/Avatar"
 import AvatarGroup from "@mui/material/AvatarGroup"
 import { Tooltip } from "@mui/material"
 import Button from "@mui/material/Button"
+import PersonAddIcon from "@mui/icons-material/PersonAdd"
 
 const MENU_STYLES = {
   color: "primary.main",
@@ -73,14 +74,16 @@ function BoardBar() {
       </Box>
 
       <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
-        <Button variant="outlined">Create</Button>
-
+        <Button variant="outlined" startIcon={<PersonAddIcon />}>
+          Create
+        </Button>
         <AvatarGroup
-          max={5}
+          max={7}
+          total={10}
           sx={{
             "& .MuiAvatar-root": {
-              width: 32,
-              height: 32,
+              width: 30,
+              height: 30,
               fontSize: "16px",
             },
           }}
