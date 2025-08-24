@@ -75,7 +75,7 @@ function BoardBar() {
 
       <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
         <Button variant="outlined" startIcon={<PersonAddIcon />}>
-          Create
+          Invite
         </Button>
         <AvatarGroup
           max={7}
