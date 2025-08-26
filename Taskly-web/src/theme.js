@@ -65,17 +65,17 @@ const theme = extendTheme({
         root: ({ theme }) => ({
           // color: theme.palette.primary.main,
           fontSize: "0.875rem", // 14px
-          ".MuiOutlinedInput-notchedOutline": {
-            borderColor: theme.palette.primary.light,
-          },
-          "&:hover": {
-            ".MuiOutlinedInput-notchedOutline": {
-              borderColor: theme.palette.primary.main,
-            },
-          },
-          // "& fieldset": {
-          //   borderWidth: "1px !important", // Ensure consistent border width
+          // ".MuiOutlinedInput-notchedOutline": {
+          //   borderColor: theme.palette.primary.light,
           // },
+          // "&:hover": {
+          //   ".MuiOutlinedInput-notchedOutline": {
+          //     borderColor: theme.palette.primary.main,
+          //   },
+          // },
+          "& fieldset": {
+            borderWidth: "1px !important", // Ensure consistent border width
+          },
         }),
       },
     },
