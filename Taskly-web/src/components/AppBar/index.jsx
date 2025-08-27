@@ -59,7 +59,11 @@ function AppBar() {
           <Recent />
           <Starred />
           <Templates />
-          <Button variant="outlined" startIcon={<LibraryAddIcon />}>
+          <Button
+            sx={{ color: "white" }}
+            variant="outlined"
+            startIcon={<LibraryAddIcon />}
+          >
             Create
           </Button>
         </Box>
