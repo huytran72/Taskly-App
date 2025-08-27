@@ -34,20 +34,20 @@ function AppBar() {
       }}
     >
       <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
-        <AppsIcon sx={{ color: "primary.main" }} />
+        <AppsIcon sx={{ color: "white" }} />
         <Box sx={{ display: "flex", alignItems: "center", gap: 0.5 }}>
           <SvgIcon
             component={TasklyIcon}
             fontSize="small"
             inheritViewBox
-            sx={{ color: "primary.main" }}
+            sx={{ color: "white" }}
           />
           <Typography
             variant="span"
             sx={{
               fontSize: "1.2rem",
               fontWeight: "bold",
-              color: "primary.main",
+              color: "white",
             }}
           >
             Taskly
@@ -77,12 +77,12 @@ function AppBar() {
 
         <Tooltip title="Notifications">
           <Badge color="secondary" variant="dot" sx={{ cursor: "pointer" }}>
-            <NotificationsNoneIcon sx={{ color: "primary.main" }} />
+            <NotificationsNoneIcon sx={{ color: "white" }} />
           </Badge>
         </Tooltip>
 
         <Tooltip title="Help">
-          <HelpOutlineIcon sx={{ cursor: "pointer", color: "primary.main" }} />
+          <HelpOutlineIcon sx={{ cursor: "pointer", color: "white" }} />
         </Tooltip>
 
         <Profiles />
