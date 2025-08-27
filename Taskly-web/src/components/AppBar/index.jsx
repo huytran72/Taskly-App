@@ -16,9 +16,9 @@ import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone"
 import Tooltip from "@mui/material/Tooltip"
 import HelpOutlineIcon from "@mui/icons-material/HelpOutline"
 import LibraryAddIcon from "@mui/icons-material/LibraryAdd"
-import { Input } from "@mui/material"
 import { AccountCircle } from "@mui/icons-material"
 import InputAdornment from "@mui/material/InputAdornment"
+import SearchIcon from "@mui/icons-material/Search"
 
 function AppBar() {
   return (
@@ -85,7 +85,7 @@ function AppBar() {
           InputProps={{
             startAdornment: (
               <InputAdornment position="start">
-                <AccountCircle />
+                <SearchIcon sx={{ color: "white" }} />
               </InputAdornment>
             ),
           }}
