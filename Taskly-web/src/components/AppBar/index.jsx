@@ -60,7 +60,11 @@ function AppBar() {
           <Starred />
           <Templates />
           <Button
-            sx={{ color: "white" }}
+            sx={{
+              color: "white",
+              border: "none",
+              "&:hover": { border: "none" },
+            }}
             variant="outlined"
             startIcon={<LibraryAddIcon />}
           >
