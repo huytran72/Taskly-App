@@ -94,6 +94,7 @@ function AppBar() {
             maxWidth: "180px",
             "& label": { color: "white" },
             "& input": { color: "white" },
+            "& label.Mui-focused": { color: "white" },
           }}
         />
         <ModeSelect />
