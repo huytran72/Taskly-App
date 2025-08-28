@@ -95,7 +95,17 @@ function AppBar() {
             "& label": { color: "white" },
             "& input": { color: "white" },
             "& label.Mui-focused": { color: "white" },
-            "& .MuiOutlinedInput-root": {},
+            "& .MuiOutlinedInput-root": {
+              "& fieldset": {
+                borderColor: "white",
+              },
+              "&:hover fieldset": {
+                borderColor: "white",
+              },
+              "&.Mui-focused fieldset": {
+                borderColor: "white",
+              },
+            },
           }}
         />
         <ModeSelect />
