@@ -86,6 +86,8 @@ function AppBar() {
           label="Search..."
           type="text"
           size="small"
+          value={searchValue}
+          onChange={(e) => setSearchValue(e.target.value)}
           InputProps={{
             startAdornment: (
               <InputAdornment position="start">
