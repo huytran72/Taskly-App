@@ -80,7 +80,7 @@ function AppBar() {
         <TextField
           id="outlined-search"
           label="Search..."
-          type="search"
+          type="text"
           size="small"
           InputProps={{
             startAdornment: (
