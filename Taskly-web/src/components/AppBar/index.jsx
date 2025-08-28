@@ -89,7 +89,7 @@ function AppBar() {
               </InputAdornment>
             ),
           }}
-          sx={{ minWidth: "120px" }}
+          sx={{ minWidth: "120px", maxWidth: "180px" }}
         />
         <ModeSelect />
 
