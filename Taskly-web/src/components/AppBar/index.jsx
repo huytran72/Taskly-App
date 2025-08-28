@@ -89,7 +89,12 @@ function AppBar() {
               </InputAdornment>
             ),
           }}
-          sx={{ minWidth: "120px", maxWidth: "180px" }}
+          sx={{
+            minWidth: "120px",
+            maxWidth: "180px",
+            "& label": { color: "white" },
+            "& input": { color: "white" },
+          }}
         />
         <ModeSelect />
 
