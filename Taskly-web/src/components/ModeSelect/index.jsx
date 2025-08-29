@@ -33,6 +33,9 @@ function ModeSelect() {
         onChange={handleChange}
         sx={{
           color: "white",
+          "& .MuiOutlinedInput-notchedOutline": {
+            borderColor: "white",
+          },
         }}
       >
         <MenuItem value="light">
