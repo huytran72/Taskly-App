@@ -39,6 +39,9 @@ function ModeSelect() {
           "&:hover .MuiOutlinedInput-notchedOutline": {
             borderColor: "white",
           },
+          "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
+            borderColor: "white",
+          },
         }}
       >
         <MenuItem value="light">
