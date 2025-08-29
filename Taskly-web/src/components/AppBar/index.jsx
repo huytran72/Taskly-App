@@ -98,6 +98,7 @@ function AppBar() {
               <CloseIcon
                 fontSize="small"
                 sx={{ color: "white", cursor: "pointer" }}
+                onClick={() => setSearchValue("")}
               />
             ),
           }}
