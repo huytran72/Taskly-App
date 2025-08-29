@@ -31,6 +31,9 @@ function ModeSelect() {
         value={mode}
         label="Mode"
         onChange={handleChange}
+        sx={{
+          color: "white",
+        }}
       >
         <MenuItem value="light">
           <Box sx={{ display: "flex", alignItems: "center", gap: "8px" }}>
