@@ -76,11 +76,11 @@ const theme = extendTheme({
           "& fieldset": {
             borderWidth: "0.5px", // Ensure consistent border width
           },
-          "&:hover fieldset": {
-            borderWidth: "1px",
-          },
+          // "&:hover fieldset": {
+          //   borderWidth: "1px",
+          // },
           "&.Mui-focused fieldset": {
-            borderWidth: "1px !important", // Ensure consistent border width
+            borderWidth: "1px", // Ensure consistent border width
           },
         }),
       },
