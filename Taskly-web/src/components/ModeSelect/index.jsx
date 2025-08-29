@@ -42,6 +42,9 @@ function ModeSelect() {
           "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
             borderColor: "white",
           },
+          "& .MuiSvgIcon-root": {
+            color: "white",
+          },
         }}
       >
         <MenuItem value="light">
