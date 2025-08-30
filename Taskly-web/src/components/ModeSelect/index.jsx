@@ -42,7 +42,7 @@ function ModeSelect() {
           "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
             borderColor: "white",
           },
-          "& .MuiSvgIcon-root": {
+          ".MuiSvgIcon-root": {
             color: "white",
           },
         }}
