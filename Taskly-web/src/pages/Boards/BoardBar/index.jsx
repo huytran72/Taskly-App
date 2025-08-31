@@ -13,7 +13,7 @@ import PersonAddIcon from "@mui/icons-material/PersonAdd"
 
 const MENU_STYLES = {
   color: "primary.main",
-  bgcolor: "white",
+  bgcolor: "transparent",
   border: "none",
   paddingX: "5px",
   borderRadius: "4px",
