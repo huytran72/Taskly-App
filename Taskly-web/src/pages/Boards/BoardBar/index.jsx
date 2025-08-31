@@ -91,10 +91,12 @@ function BoardBar() {
           max={7}
           total={10}
           sx={{
+            gap: "10px",
             "& .MuiAvatar-root": {
               width: 30,
               height: 30,
               fontSize: "16px",
+              border: "none ",
             },
           }}
         >
