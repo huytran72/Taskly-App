@@ -14,7 +14,20 @@ function BoardContent() {
         alignItems: "center",
       }}
     >
-      Board Content
+      {/* Box Column */}
+      <Box
+        sx={{
+          minWidth: "300px",
+          maxWidth: "400px",
+          bgcolor: (theme) =>
+            theme.palette.mode === "dark" ? "#2c3e50" : "#ecf0f1",
+          borderRadius: "4px",
+          padding: "16px",
+          boxShadow: 1,
+        }}
+      >
+        {/* Column Content */}
+      </Box>
     </Box>
   )
 }
