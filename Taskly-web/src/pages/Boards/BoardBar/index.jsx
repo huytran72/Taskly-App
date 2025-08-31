@@ -17,7 +17,7 @@ const MENU_STYLES = {
   border: "none",
   paddingX: "5px",
   borderRadius: "4px",
-  "& .MuiSvgIcon-root": {
+  ".MuiSvgIcon-root": {
     color: "primary.main",
   },
   "&:hover": {
