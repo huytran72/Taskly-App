@@ -97,6 +97,8 @@ function BoardBar() {
               height: 30,
               fontSize: "16px",
               border: "none",
+              color: "white",
+              cursor: "pointer",
             },
           }}
         >
