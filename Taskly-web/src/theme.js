@@ -46,10 +46,11 @@ const theme = extendTheme({
     MuiButton: {
       styleOverrides: {
         root: ({ theme }) => ({
-          color: theme.palette.primary.main,
-          fontSize: "0.875rem", // 14px
           textTransform: "none",
           borderWidth: "0.5px",
+          "&:hover": {
+            borderColor: { borderWidth: "0.5px" },
+          },
         }),
       },
     },
