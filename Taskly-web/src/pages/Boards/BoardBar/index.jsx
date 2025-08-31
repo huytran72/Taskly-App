@@ -76,7 +76,11 @@ function BoardBar() {
       </Box>
 
       <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
-        <Button variant="outlined" startIcon={<PersonAddIcon />}>
+        <Button
+          variant="outlined"
+          startIcon={<PersonAddIcon />}
+          sx={{ color: "white", borderColor: "white" }}
+        >
           Invite
         </Button>
         <AvatarGroup
