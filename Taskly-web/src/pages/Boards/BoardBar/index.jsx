@@ -79,7 +79,11 @@ function BoardBar() {
         <Button
           variant="outlined"
           startIcon={<PersonAddIcon />}
-          sx={{ color: "white", borderColor: "white" }}
+          sx={{
+            color: "white",
+            borderColor: "white",
+            "&:hover": { borderColor: "white" },
+          }}
         >
           Invite
         </Button>
