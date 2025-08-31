@@ -99,6 +99,7 @@ function BoardBar() {
               border: "none",
               color: "white",
               cursor: "pointer",
+              "&:first-of-type": { bgcolor: "#a4b0de" },
             },
           }}
         >
