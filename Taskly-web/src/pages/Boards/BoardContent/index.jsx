@@ -28,6 +28,9 @@ function BoardContent() {
         }}
       >
         {/* Column Content */}
+        <Box></Box>
+        <Box></Box>
+        <Box></Box>
       </Box>
     </Box>
   )
