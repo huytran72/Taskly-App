@@ -11,7 +11,6 @@ function BoardContent() {
         height: (theme) =>
           `calc(100vh - ${theme.taskly.appBarHeight} - ${theme.taskly.boardBarHeight})`,
         display: "flex",
-        alignItems: "center",
       }}
     >
       {/* Box Column */}
@@ -22,7 +21,7 @@ function BoardContent() {
           bgcolor: (theme) =>
             theme.palette.mode === "dark" ? "##333643" : "##ebecf0",
           ml: 2,
-          borderRadius: "4px",
+          borderRadius: "6px",
           padding: "16px",
           boxShadow: 1,
         }}
