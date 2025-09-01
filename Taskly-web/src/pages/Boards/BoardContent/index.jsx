@@ -29,8 +29,8 @@ function BoardContent() {
       >
         {/* Column Content */}
         <Box sx={{}}></Box>
-        <Box></Box>
-        <Box></Box>
+        <Box sx={{}}></Box>
+        <Box sx={{}}></Box>
       </Box>
     </Box>
   )
