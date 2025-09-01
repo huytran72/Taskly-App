@@ -29,7 +29,7 @@ function BoardContent() {
       >
         {/* Column Content */}
         <Box sx={{}}>Header</Box>
-        <Box sx={{}}></Box>
+        <Box sx={{}}>List Card</Box>
         <Box sx={{}}></Box>
       </Box>
     </Box>
