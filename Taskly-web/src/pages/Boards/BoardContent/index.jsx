@@ -20,7 +20,7 @@ function BoardContent() {
           minWidth: "300px",
           maxWidth: "400px",
           bgcolor: (theme) =>
-            theme.palette.mode === "dark" ? "#2c3e50" : "#ecf0f1",
+            theme.palette.mode === "dark" ? "##333643" : "##ebecf0",
           borderRadius: "4px",
           padding: "16px",
           boxShadow: 1,
