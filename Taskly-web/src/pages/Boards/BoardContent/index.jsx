@@ -1,6 +1,9 @@
 import React from "react"
 import Box from "@mui/material/Box"
 
+const COLUMN_HEADER_HEIGHT = "48px"
+const COLUMN_FOOTER_HEIGHT = "48px"
+
 function BoardContent() {
   return (
     <Box
