@@ -29,7 +29,16 @@ function BoardContent() {
         }}
       >
         {/* Column Content */}
-        <Box sx={{}}>Header</Box>
+        <Box
+          sx={{
+            height: COLUMN_HEADER_HEIGHT,
+            p: 2,
+            display: "flex",
+            alignItems: "center",
+          }}
+        >
+          Header
+        </Box>
         <Box sx={{}}>List Cards</Box>
         <Box sx={{}}>Footer</Box>
       </Box>
