@@ -35,6 +35,7 @@ function BoardContent() {
             p: 2,
             display: "flex",
             alignItems: "center",
+            justifyContent: "space-between",
           }}
         >
           Header
