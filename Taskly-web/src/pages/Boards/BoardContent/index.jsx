@@ -41,7 +41,17 @@ function BoardContent() {
           Header
         </Box>
         <Box sx={{}}>List Cards</Box>
-        <Box sx={{}}>Footer</Box>
+        <Box
+          sx={{
+            height: COLUMN_FOOTER_HEIGHT,
+            p: 2,
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+          }}
+        >
+          Footer
+        </Box>
       </Box>
     </Box>
   )
