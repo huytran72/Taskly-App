@@ -2,6 +2,9 @@ import { experimental_extendTheme as extendTheme } from "@mui/material/styles"
 import { cyan, deepOrange, orange, teal } from "@mui/material/colors"
 import { Height } from "@mui/icons-material"
 
+const APP_BAR_HEIGHT = "58px"
+const BOARD_BAR_HEIGHT = "60px"
+
 // Create a theme instance.
 const theme = extendTheme({
   taskly: {
