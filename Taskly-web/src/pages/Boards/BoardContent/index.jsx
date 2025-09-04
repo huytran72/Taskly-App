@@ -61,16 +61,14 @@ function BoardContent() {
         >
           <Typography variant="h6">Header</Typography>
           <Box>
-            <Button
+            <ExpandMoreIcon
+              sx={{ color: "text.primary", cursor: "pointer" }}
               id="basic-button-workspaces"
               aria-controls={open ? "basic-menu-workspaces" : undefined}
               aria-haspopup="true"
               aria-expanded={open ? "true" : undefined}
               onClick={handleClick}
-              endIcon={<ExpandMoreIcon />}
-            >
-              Workspaces
-            </Button>
+            />
             <Menu
               id="basic-menu-workspaces"
               anchorEl={anchorEl}
