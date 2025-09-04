@@ -11,8 +11,7 @@ function BoardContent() {
         bgcolor: (theme) =>
           theme.palette.mode === "dark" ? "#34495e" : "#1976d2",
         width: "100%",
-        height: (theme) =>
-          `calc(100vh - ${theme.taskly.appBarHeight} - ${theme.taskly.boardBarHeight})`,
+        height: (theme) => theme.taskly.boardContentHeight, // calc(100vh - 58px - 60px)
         display: "flex",
       }}
     >
