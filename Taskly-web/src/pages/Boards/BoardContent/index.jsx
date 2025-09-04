@@ -19,7 +19,7 @@ function BoardContent() {
       <Box
         sx={{
           minWidth: "300px",
-          maxWidth: "400px",
+          maxWidth: "300px",
           bgcolor: (theme) =>
             theme.palette.mode === "dark" ? "#333643" : "#ebecf0",
           ml: 2,
