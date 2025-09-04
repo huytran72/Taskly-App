@@ -10,8 +10,9 @@ const BOARD_CONTENT_HEIGHT =
 // Create a theme instance.
 const theme = extendTheme({
   taskly: {
-    appBarHeight: "70px",
-    boardBarHeight: "60px",
+    appBarHeight: APP_BAR_HEIGHT,
+    boardBarHeight: BOARD_BAR_HEIGHT,
+    boardContentHeight: BOARD_CONTENT_HEIGHT,
   },
   colorSchemes: {
     light: {
