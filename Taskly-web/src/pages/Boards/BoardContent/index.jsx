@@ -1,5 +1,6 @@
 import React from "react"
 import Box from "@mui/material/Box"
+import Typography from "@mui/material/Typography"
 
 const COLUMN_HEADER_HEIGHT = "48px"
 const COLUMN_FOOTER_HEIGHT = "48px"
@@ -38,7 +39,7 @@ function BoardContent() {
             justifyContent: "space-between",
           }}
         >
-          Header
+          <Typography variant="h6">Header</Typography>
         </Box>
         <Box sx={{}}>List Cards</Box>
         <Box
