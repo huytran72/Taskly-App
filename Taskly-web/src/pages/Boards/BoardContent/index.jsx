@@ -62,7 +62,7 @@ function BoardContent() {
         >
           <Typography variant="h6">Header</Typography>
           <Box>
-            <Tooltip>
+            <Tooltip title="More options">
               <ExpandMoreIcon
                 sx={{ color: "text.primary", cursor: "pointer" }}
                 id="basic-column-dropdown"
