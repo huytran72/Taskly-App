@@ -12,6 +12,7 @@ import ContentCopy from "@mui/icons-material/ContentCopy"
 import ContentPaste from "@mui/icons-material/ContentPaste"
 import Cloud from "@mui/icons-material/Cloud"
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
+import Tooltip from "@mui/material/Tooltip"
 
 const COLUMN_HEADER_HEIGHT = "48px"
 const COLUMN_FOOTER_HEIGHT = "48px"
