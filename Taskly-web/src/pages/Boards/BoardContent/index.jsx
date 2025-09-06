@@ -63,19 +63,19 @@ function BoardContent() {
           <Box>
             <ExpandMoreIcon
               sx={{ color: "text.primary", cursor: "pointer" }}
-              id="basic-button-workspaces"
-              aria-controls={open ? "basic-menu-workspaces" : undefined}
+              id="basic-column-dropdown"
+              aria-controls={open ? "basic-menu-column-dropdown" : undefined}
               aria-haspopup="true"
               aria-expanded={open ? "true" : undefined}
               onClick={handleClick}
             />
             <Menu
-              id="basic-menu-workspaces"
+              id="basic-menu-column-dropdown"
               anchorEl={anchorEl}
               open={open}
               onClose={handleClose}
               MenuListProps={{
-                "aria-labelledby": "basic-button-workspaces",
+                "aria-labelledby": "basic-column-dropdown",
               }}
             >
               <MenuItem>
